@@ -1,0 +1,2044 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>玉足小白袜 - 品牌官网 | 专注舒适棉袜的原创生活方式影像社区</title>
+<meta name="description" content="玉足小白袜官方网站，专注舒适、透气、耐穿的白袜原创品牌，以影像记录生活日常与工艺细节，构建真实温暖的内容社区。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23f7f4ee'/%3E%3Cpath d='M22 14h12v22c0 6-4 10-10 10S14 42 14 36c0-3 2-5 4-5s4 2 4 5 2 4 4 4 0-1 0-3V14z' fill='%23c96a4a'/%3E%3Ccircle cx='46' cy='20' r='6' fill='%233f6f6a'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --yz-cream:#faf6ef;
+    --yz-paper:#fffdf9;
+    --yz-amber:#e08a56;
+    --yz-amber-deep:#c4693a;
+    --yz-ink:#3a3129;
+    --yz-ink-soft:#6d6156;
+    --yz-line:#e7ddcd;
+    --yz-green:#3f6f6a;
+    --yz-shadow:0 10px 30px rgba(120,95,65,.10);
+    --yz-radius:16px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;scroll-padding-top:150px}
+  body{
+    font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+    background:var(--yz-cream);
+    color:var(--yz-ink);
+    line-height:1.75;
+    font-size:16px;
+  }
+  img,svg{max-width:100%;display:block}
+  a{color:inherit;text-decoration:none}
+  ul{list-style:none}
+  button{font-family:inherit;cursor:pointer;border:none;background:none}
+  .yz-wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+
+  /* ===== 吸顶区：公告条 + 页头 ===== */
+  .yz-sticky{position:sticky;top:0;z-index:80}
+  .yz-announce{
+    background:linear-gradient(90deg,#3f6f6a,#4c857e);
+    color:#f3f8f6;
+    font-size:13.5px;
+    letter-spacing:.3px;
+  }
+  .yz-announce .yz-wrap{
+    display:flex;align-items:center;gap:10px;
+    padding:9px 24px;overflow:hidden;
+  }
+  .yz-announce-badge{
+    flex:none;background:#fbe3c9;color:#8a4c1f;
+    font-weight:700;font-size:11.5px;border-radius:20px;
+    padding:2px 10px;letter-spacing:1px;
+  }
+  .yz-announce-roll{flex:1;position:relative;height:22px;overflow:hidden}
+  .yz-announce-roll span{
+    position:absolute;left:0;top:0;white-space:nowrap;
+    animation:yzRoll 18s linear infinite;
+  }
+  @keyframes yzRoll{
+    0%,18%{transform:translateX(0)}
+    50%{transform:translateX(-30%)}
+    82%,100%{transform:translateX(-60%)}
+  }
+  .yz-announce a{color:#ffe9d2;text-decoration:underline;text-underline-offset:3px}
+
+  .yz-header{
+    background:rgba(255,253,249,.94);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--yz-line);
+  }
+  .yz-header .yz-wrap{
+    display:flex;align-items:center;justify-content:space-between;
+    height:72px;gap:20px;
+  }
+  .yz-logo{display:flex;align-items:center;gap:12px;flex:none}
+  .yz-logo-mark{
+    width:42px;height:42px;border-radius:12px;
+    background:linear-gradient(140deg,#f0b98c,#d4763f);
+    display:grid;place-items:center;color:#fff;font-weight:800;
+    font-size:17px;letter-spacing:0;box-shadow:0 4px 12px rgba(196,105,58,.35);
+  }
+  .yz-logo-text{display:flex;flex-direction:column;line-height:1.2}
+  .yz-logo-text strong{font-size:19px;letter-spacing:1px}
+  .yz-logo-text em{font-style:normal;font-size:11px;color:var(--yz-ink-soft);letter-spacing:2.5px}
+  .yz-nav{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+  .yz-nav a{
+    font-size:14.5px;padding:8px 13px;border-radius:20px;
+    color:var(--yz-ink-soft);transition:.22s;font-weight:500;
+  }
+  .yz-nav a:hover{background:#f4ead9;color:var(--yz-amber-deep)}
+  .yz-header-tools{display:flex;align-items:center;gap:10px;flex:none}
+  .yz-search{
+    display:flex;align-items:center;gap:6px;
+    background:#f5eee1;border:1px solid #ecdfc8;
+    border-radius:22px;padding:5px 8px 5px 14px;
+  }
+  .yz-search input{
+    border:none;background:transparent;outline:none;
+    width:130px;font-size:13.5px;color:var(--yz-ink);
+  }
+  .yz-search input::placeholder{color:#b3a48f}
+  .yz-search button{
+    background:var(--yz-amber);color:#fff;border-radius:18px;
+    padding:5px 12px;font-size:12.5px;font-weight:600;transition:.2s;
+  }
+  .yz-search button:hover{background:var(--yz-amber-deep)}
+  .yz-burger{
+    display:none;width:42px;height:42px;border-radius:12px;
+    background:#f5eee1;border:1px solid #ecdfc8;
+    flex-direction:column;justify-content:center;align-items:center;gap:5px;
+  }
+  .yz-burger i{display:block;width:18px;height:2px;background:var(--yz-ink);border-radius:2px;transition:.25s}
+  .yz-burger.yz-open i:nth-child(1){transform:translateY(7px) rotate(45deg)}
+  .yz-burger.yz-open i:nth-child(2){opacity:0}
+  .yz-burger.yz-open i:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+  /* 搜索反馈条 */
+  .yz-search-tip{
+    display:none;background:#fdf3e6;border-top:1px dashed #ecd9bd;
+    font-size:13px;color:#8a6a44;
+  }
+  .yz-search-tip.yz-show{display:block}
+  .yz-search-tip .yz-wrap{padding:8px 24px}
+
+  /* ===== 主视觉 ===== */
+  .yz-hero{position:relative;overflow:hidden;padding:56px 0 44px}
+  .yz-hero::before{
+    content:"";position:absolute;right:-140px;top:-120px;
+    width:420px;height:420px;border-radius:50%;
+    background:radial-gradient(circle,#fbe4cd 0%,rgba(251,228,205,0) 70%);
+  }
+  .yz-hero-grid{
+    display:grid;grid-template-columns:1.05fr .95fr;gap:48px;
+    align-items:center;position:relative;z-index:2;
+  }
+  .yz-hero-kicker{
+    display:inline-flex;align-items:center;gap:8px;
+    background:#f4ead9;color:#9a5a2a;border-radius:20px;
+    padding:5px 14px;font-size:12.5px;font-weight:600;letter-spacing:1px;
+    margin-bottom:18px;
+  }
+  .yz-hero h1{
+    font-size:clamp(38px,5.4vw,62px);
+    line-height:1.15;letter-spacing:2px;
+    color:var(--yz-ink);
+  }
+  .yz-hero h1 span{
+    color:var(--yz-amber-deep);
+    position:relative;
+  }
+  .yz-hero-slogan{
+    font-size:19px;color:var(--yz-ink-soft);
+    margin:16px 0 10px;letter-spacing:1px;font-weight:500;
+  }
+  .yz-hero-intro{
+    font-size:15px;color:var(--yz-ink-soft);
+    max-width:520px;margin-bottom:24px;
+  }
+  .yz-hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:30px}
+  .yz-btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:7px;
+    padding:12px 26px;border-radius:26px;font-size:14.5px;font-weight:600;
+    transition:.22s;border:1px solid transparent;
+  }
+  .yz-btn-primary{background:var(--yz-amber);color:#fff;box-shadow:0 8px 20px rgba(224,138,86,.32)}
+  .yz-btn-primary:hover{background:var(--yz-amber-deep);transform:translateY(-2px)}
+  .yz-btn-ghost{background:transparent;border-color:#dcc9ad;color:var(--yz-ink)}
+  .yz-btn-ghost:hover{background:#f4ead9;border-color:var(--yz-amber)}
+  .yz-hero-stats{display:flex;gap:38px;flex-wrap:wrap}
+  .yz-stat strong{display:block;font-size:30px;color:var(--yz-green);letter-spacing:1px;line-height:1.2}
+  .yz-stat span{font-size:12.5px;color:var(--yz-ink-soft);letter-spacing:1px}
+
+  /* 首屏主视觉图 */
+  .yz-hero-visual{position:relative}
+  .yz-hero-frame{
+    border-radius:26px;overflow:hidden;
+    box-shadow:var(--yz-shadow);border:6px solid #fff;
+    transform:rotate(-1.2deg);background:#fff;
+  }
+  .yz-hero-frame svg{width:100%;height:auto}
+  .yz-hero-chip{
+    position:absolute;background:#fff;border-radius:14px;
+    box-shadow:0 12px 26px rgba(120,95,65,.16);
+    padding:10px 16px;font-size:12.5px;font-weight:600;
+    display:flex;align-items:center;gap:8px;color:var(--yz-ink);
+  }
+  .yz-chip-a{left:-14px;bottom:36px;transform:rotate(-2deg)}
+  .yz-chip-b{right:-10px;top:24px;transform:rotate(2.5deg);background:#3f6f6a;color:#eaf5f2}
+  .yz-chip-dot{width:8px;height:8px;border-radius:50%;background:#6cbf9f;box-shadow:0 0 0 4px rgba(108,191,159,.22)}
+
+  /* ===== 通用 section 头 ===== */
+  .yz-section{padding:64px 0}
+  .yz-section-alt{background:var(--yz-paper);border-top:1px solid var(--yz-line);border-bottom:1px solid var(--yz-line)}
+  .yz-sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:22px;margin-bottom:34px;flex-wrap:wrap}
+  .yz-sec-head h2{
+    font-size:clamp(24px,3vw,32px);letter-spacing:1.5px;line-height:1.3;
+    position:relative;padding-left:16px;
+  }
+  .yz-sec-head h2::before{
+    content:"";position:absolute;left:0;top:8px;bottom:8px;width:5px;border-radius:3px;
+    background:linear-gradient(180deg,var(--yz-amber),var(--yz-green));
+  }
+  .yz-sec-head p{font-size:14px;color:var(--yz-ink-soft);max-width:460px}
+  .yz-sec-more{font-size:13.5px;color:var(--yz-amber-deep);font-weight:600;white-space:nowrap}
+  .yz-sec-more:hover{text-decoration:underline;text-underline-offset:4px}
+
+  /* ===== 焦点视频 ===== */
+  .yz-feature-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:24px}
+  .yz-feature-main .yz-card-cover{border-radius:20px}
+  .yz-feature-side{display:grid;grid-template-rows:repeat(2,1fr);gap:24px}
+
+  .yz-vcard{
+    background:#fff;border:1px solid var(--yz-line);border-radius:var(--yz-radius);
+    overflow:hidden;transition:.28s;position:relative;display:flex;flex-direction:column;
+    box-shadow:0 2px 0 rgba(120,95,65,.03);
+  }
+  .yz-vcard:hover{transform:translateY(-5px);box-shadow:var(--yz-shadow);border-color:#e5d2b3}
+  .yz-vcard-cover{position:relative;overflow:hidden;border-radius:0}
+  .yz-cover-inner{
+    position:relative;aspect-ratio:16/9;overflow:hidden;
+    background:#e9dfcf;
+  }
+  .yz-cover-inner svg{width:100%;height:100%;transition:transform .5s}
+  .yz-vcard:hover .yz-cover-inner svg{transform:scale(1.05)}
+  .yz-cover-tag{
+    position:absolute;left:12px;top:12px;z-index:2;
+    background:rgba(58,49,41,.72);color:#fff;font-size:11.5px;
+    border-radius:20px;padding:3px 11px;letter-spacing:.5px;backdrop-filter:blur(3px);
+  }
+  .yz-cover-dur{
+    position:absolute;right:12px;bottom:12px;z-index:2;
+    background:rgba(58,49,41,.78);color:#fff;font-size:11.5px;
+    border-radius:6px;padding:1px 9px;letter-spacing:.5px;
+  }
+  .yz-play{
+    position:absolute;inset:0;display:grid;place-items:center;z-index:2;
+    opacity:0;transition:.3s;background:rgba(58,49,41,.18);
+  }
+  .yz-vcard:hover .yz-play{opacity:1}
+  .yz-play span{
+    width:54px;height:54px;border-radius:50%;background:rgba(255,255,255,.9);
+    display:grid;place-items:center;box-shadow:0 8px 20px rgba(0,0,0,.2);
+  }
+  .yz-play span::after{
+    content:"";border-style:solid;border-width:9px 0 9px 15px;
+    border-color:transparent transparent transparent var(--yz-amber-deep);
+    margin-left:4px;
+  }
+  .yz-vcard-body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:8px;flex:1}
+  .yz-vcard-title{font-size:16.5px;line-height:1.45;font-weight:700;letter-spacing:.4px}
+  .yz-feature-main .yz-vcard-title{font-size:21px}
+  .yz-vcard-desc{font-size:13px;color:var(--yz-ink-soft);line-height:1.65}
+  .yz-vcard-meta{
+    display:flex;align-items:center;justify-content:space-between;gap:10px;
+    margin-top:auto;padding-top:6px;font-size:12.5px;color:var(--yz-ink-soft);
+  }
+  .yz-author-mini{display:flex;align-items:center;gap:8px;font-weight:600;color:var(--yz-ink)}
+  .yz-avatar{
+    width:28px;height:28px;border-radius:50%;flex:none;
+    display:grid;place-items:center;font-size:12px;font-weight:700;color:#fff;
+  }
+  .yz-actions{display:flex;align-items:center;gap:6px}
+  .yz-act{
+    display:inline-flex;align-items:center;gap:4px;
+    font-size:12.5px;color:var(--yz-ink-soft);
+    background:#f7f1e6;border-radius:14px;padding:4px 10px;transition:.2s;
+  }
+  .yz-act:hover{background:#f1e3cd;color:var(--yz-amber-deep)}
+  .yz-act.yz-like-on{background:#fbe3d3;color:#c4693a}
+  .yz-act.yz-fav-on{background:#e3f0ec;color:#2f6b60}
+  .yz-vcard-tags{display:flex;flex-wrap:wrap;gap:6px}
+  .yz-tag{
+    font-size:11.5px;background:#f4ead9;color:#9a5a2a;
+    border-radius:6px;padding:2px 9px;letter-spacing:.5px;
+  }
+
+  /* ===== 视频流网格 ===== */
+  .yz-flow-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .yz-flow-grid .yz-vcard-title{font-size:15.5px}
+
+  /* ===== 专题 ===== */
+  .yz-topic-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .yz-topic{
+    border-radius:18px;overflow:hidden;position:relative;
+    min-height:230px;display:flex;flex-direction:column;justify-content:flex-end;
+    padding:22px;color:#fff;transition:.3s;border:1px solid transparent;
+  }
+  .yz-topic::after{
+    content:"";position:absolute;inset:0;z-index:0;
+    background:linear-gradient(180deg,rgba(0,0,0,.02) 30%,rgba(20,14,8,.72));
+  }
+  .yz-topic > *{position:relative;z-index:1}
+  .yz-topic:hover{transform:translateY(-5px);box-shadow:var(--yz-shadow)}
+  .yz-topic-state{
+    position:absolute;right:16px;top:16px;z-index:2;font-size:11.5px;
+    background:rgba(255,255,255,.22);backdrop-filter:blur(4px);
+    border-radius:20px;padding:3px 11px;letter-spacing:.5px;
+  }
+  .yz-topic h3{font-size:19px;letter-spacing:.8px;margin-bottom:6px}
+  .yz-topic p{font-size:12.8px;opacity:.9;line-height:1.6}
+
+  /* ===== 创作者 ===== */
+  .yz-creator-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .yz-creator{
+    background:#fff;border:1px solid var(--yz-line);border-radius:18px;
+    padding:22px;display:flex;gap:16px;transition:.28s;
+  }
+  .yz-creator:hover{transform:translateY(-4px);box-shadow:var(--yz-shadow);border-color:#e5d2b3}
+  .yz-creator-ava{
+    width:58px;height:58px;border-radius:18px;flex:none;
+    display:grid;place-items:center;font-weight:800;font-size:20px;color:#fff;
+    letter-spacing:1px;
+  }
+  .yz-creator-info h3{font-size:16.5px;letter-spacing:.5px;display:flex;align-items:center;gap:8px}
+  .yz-verify{
+    font-size:10.5px;background:#e3f0ec;color:#2f6b60;border-radius:6px;
+    padding:1px 6px;font-weight:600;letter-spacing:.5px;
+  }
+  .yz-creator-info .yz-field{font-size:12.5px;color:var(--yz-green);font-weight:600;margin:3px 0 6px}
+  .yz-creator-info p{font-size:12.8px;color:var(--yz-ink-soft);line-height:1.6}
+  .yz-creator-nums{display:flex;gap:16px;margin-top:9px;font-size:12px;color:var(--yz-ink-soft)}
+  .yz-creator-nums b{color:var(--yz-ink);font-size:13px}
+  .yz-creator-more{
+    margin-top:10px;font-size:12.5px;color:var(--yz-amber-deep);font-weight:600;
+  }
+  .yz-creator-more:hover{text-decoration:underline;text-underline-offset:3px}
+
+  /* ===== 深度解析 / 长文 ===== */
+  .yz-about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px;align-items:start}
+  .yz-about-visual{
+    border-radius:22px;overflow:hidden;border:6px solid #fff;
+    box-shadow:var(--yz-shadow);position:sticky;top:170px;
+  }
+  .yz-about-visual svg{width:100%;height:auto}
+  .yz-about-text h2{font-size:clamp(24px,3vw,30px);margin-bottom:8px;letter-spacing:1.5px;padding-left:16px;position:relative}
+  .yz-about-text h2::before{content:"";position:absolute;left:0;top:8px;bottom:8px;width:5px;border-radius:3px;background:linear-gradient(180deg,var(--yz-amber),var(--yz-green))}
+  .yz-about-lead{font-size:15px;color:var(--yz-green);font-weight:600;margin:12px 0 18px}
+  .yz-about-text p{font-size:14.5px;color:var(--yz-ink-soft);margin-bottom:14px;line-height:1.85}
+  .yz-about-text h3{font-size:17px;margin:22px 0 8px;letter-spacing:.6px;color:var(--yz-ink)}
+  .yz-about-quote{
+    border-left:4px solid var(--yz-amber);background:#fdf4e8;
+    border-radius:0 12px 12px 0;padding:14px 20px;font-size:14px;
+    color:#8a5a2c;margin:20px 0;line-height:1.8;
+  }
+
+  /* ===== 影像墙 ===== */
+  .yz-wall{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:150px;gap:14px}
+  .yz-wall-item{
+    border-radius:14px;overflow:hidden;position:relative;
+    box-shadow:0 2px 0 rgba(120,95,65,.04);transition:.3s;
+  }
+  .yz-wall-item:hover{transform:scale(1.02);box-shadow:var(--yz-shadow)}
+  .yz-wall-item svg{width:100%;height:100%;object-fit:cover}
+  .yz-wall-cap{
+    position:absolute;left:0;right:0;bottom:0;padding:22px 14px 10px;
+    background:linear-gradient(180deg,rgba(0,0,0,0),rgba(20,14,8,.72));
+    color:#fff;font-size:12.5px;letter-spacing:.4px;
+  }
+  .yz-wall-big{grid-column:span 2;grid-row:span 2}
+  .yz-wall-wide{grid-column:span 2}
+  .yz-wall-tall{grid-row:span 2}
+
+  /* ===== 评论 ===== */
+  .yz-review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .yz-review{
+    background:#fff;border:1px solid var(--yz-line);border-radius:16px;
+    padding:20px;display:flex;flex-direction:column;gap:12px;
+    transition:.26s;position:relative;
+  }
+  .yz-review::before{
+    content:"“";position:absolute;right:18px;top:6px;
+    font-size:52px;line-height:1;color:#f1e3cd;font-family:Georgia,serif;
+  }
+  .yz-review:hover{box-shadow:var(--yz-shadow);transform:translateY(-3px)}
+  .yz-review-head{display:flex;align-items:center;gap:11px}
+  .yz-review-head .yz-avatar{width:38px;height:38px;border-radius:12px;font-size:14px}
+  .yz-review-name{font-size:14px;font-weight:700}
+  .yz-review-sub{font-size:11.5px;color:var(--yz-ink-soft)}
+  .yz-review-body{font-size:13.5px;color:#554a3f;line-height:1.75;position:relative;z-index:1}
+  .yz-review-stars{color:#e0a13c;font-size:13px;letter-spacing:2px}
+
+  /* ===== 排行榜 ===== */
+  .yz-rank-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .yz-rank-box{background:#fff;border:1px solid var(--yz-line);border-radius:18px;padding:22px}
+  .yz-rank-box h3{font-size:16px;letter-spacing:.8px;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+  .yz-rank-box h3::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--yz-amber)}
+  .yz-rank-list li{
+    display:flex;align-items:center;gap:10px;padding:9px 0;
+    border-bottom:1px dashed #efe4d2;font-size:13.5px;
+  }
+  .yz-rank-list li:last-child{border-bottom:none}
+  .yz-rank-num{
+    width:22px;height:22px;border-radius:7px;background:#f4ead9;color:#9a5a2a;
+    display:grid;place-items:center;font-size:12px;font-weight:700;flex:none;
+  }
+  .yz-rank-list li:nth-child(1) .yz-rank-num{background:var(--yz-amber);color:#fff}
+  .yz-rank-list li:nth-child(2) .yz-rank-num{background:#e7b98c;color:#fff}
+  .yz-rank-list li:nth-child(3) .yz-rank-num{background:#dfcaa8;color:#7a5b32}
+  .yz-rank-name{flex:1;color:var(--yz-ink)}
+  .yz-rank-hot{font-size:11.5px;color:var(--yz-ink-soft)}
+
+  /* ===== FAQ ===== */
+  .yz-faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px 26px}
+  .yz-faq-item{
+    background:#fff;border:1px solid var(--yz-line);border-radius:14px;
+    overflow:hidden;transition:.24s;
+  }
+  .yz-faq-item[open]{border-color:#e5c9a5;box-shadow:0 6px 18px rgba(196,105,58,.08)}
+  .yz-faq-item summary{
+    list-style:none;cursor:pointer;padding:15px 18px;
+    font-size:14.5px;font-weight:600;display:flex;justify-content:space-between;
+    align-items:center;gap:12px;letter-spacing:.3px;
+  }
+  .yz-faq-item summary::-webkit-details-marker{display:none}
+  .yz-faq-item summary::after{
+    content:"+";font-size:20px;color:var(--yz-amber-deep);
+    transition:.25s;line-height:1;flex:none;
+  }
+  .yz-faq-item[open] summary::after{transform:rotate(45deg)}
+  .yz-faq-item p{padding:0 18px 16px;font-size:13.5px;color:var(--yz-ink-soft);line-height:1.8}
+
+  /* ===== 动态 ===== */
+  .yz-news-list{display:grid;gap:0;border-top:1px solid var(--yz-line)}
+  .yz-news-item{
+    display:grid;grid-template-columns:110px 1fr auto;gap:18px;
+    align-items:center;padding:18px 4px;border-bottom:1px solid var(--yz-line);
+    transition:.22s;
+  }
+  .yz-news-item:hover{background:#fdf8f0;padding-left:12px}
+  .yz-news-date{font-size:13px;color:var(--yz-green);font-weight:700;letter-spacing:.5px}
+  .yz-news-title{font-size:14.5px;letter-spacing:.3px}
+  .yz-news-title small{display:block;font-size:12.5px;color:var(--yz-ink-soft);font-weight:400;margin-top:2px}
+  .yz-news-kind{
+    font-size:11.5px;background:#f4ead9;color:#9a5a2a;border-radius:6px;
+    padding:3px 10px;white-space:nowrap;
+  }
+
+  /* ===== 合作 & 联系 ===== */
+  .yz-bottom-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:stretch}
+  .yz-partner-box,.yz-contact-box{
+    background:#fff;border:1px solid var(--yz-line);border-radius:20px;padding:28px;
+  }
+  .yz-partner-box h3,.yz-contact-box h3{font-size:18px;margin-bottom:8px;letter-spacing:.8px}
+  .yz-partner-box > p,.yz-contact-box > p{font-size:13.5px;color:var(--yz-ink-soft);margin-bottom:18px}
+  .yz-partner-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .yz-partner{
+    display:flex;align-items:center;gap:10px;
+    background:#fbf6ec;border:1px solid #f0e5d2;border-radius:12px;
+    padding:11px 14px;font-size:13px;font-weight:600;
+  }
+  .yz-partner i{
+    width:26px;height:26px;border-radius:8px;flex:none;display:grid;
+    place-items:center;color:#fff;font-size:12px;font-style:normal;font-weight:700;
+  }
+  .yz-contact-list{display:grid;gap:12px;margin-bottom:20px}
+  .yz-contact-list li{display:flex;gap:10px;font-size:13.5px;color:var(--yz-ink-soft);align-items:flex-start}
+  .yz-contact-list b{color:var(--yz-ink);flex:none;font-weight:600;min-width:66px}
+  .yz-contact-actions{display:flex;flex-wrap:wrap;gap:10px}
+
+  /* ===== 页脚 ===== */
+  .yz-footer{background:#332b23;color:#c9bdaf;padding:52px 0 0;margin-top:20px}
+  .yz-footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:34px;padding-bottom:36px}
+  .yz-footer h4{color:#f3e8d8;font-size:14.5px;margin-bottom:14px;letter-spacing:1px}
+  .yz-footer-brand{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+  .yz-footer-brand .yz-logo-mark{width:38px;height:38px;border-radius:11px;font-size:15px}
+  .yz-footer-brand strong{color:#f3e8d8;font-size:17px;letter-spacing:1px}
+  .yz-footer p{font-size:13px;line-height:1.85;color:#b0a596}
+  .yz-footer li{font-size:13px;margin-bottom:9px;color:#b0a596}
+  .yz-footer li a:hover{color:#f0b98c}
+  .yz-footer-bottom{
+    border-top:1px solid #4a3f34;padding:18px 0 24px;
+    font-size:12.5px;color:#8f8578;display:flex;justify-content:space-between;
+    gap:14px;flex-wrap:wrap;
+  }
+  .yz-footer-bottom a:hover{color:#f0b98c}
+
+  /* ===== 回到顶部 ===== */
+  .yz-top-btn{
+    position:fixed;right:26px;bottom:26px;z-index:90;
+    width:48px;height:48px;border-radius:50%;
+    background:var(--yz-amber);color:#fff;font-size:18px;
+    box-shadow:0 10px 24px rgba(196,105,58,.4);
+    display:grid;place-items:center;opacity:0;visibility:hidden;
+    transition:.3s;transform:translateY(10px);
+  }
+  .yz-top-btn.yz-show{opacity:1;visibility:visible;transform:translateY(0)}
+
+  /* ===== Toast / 弹窗 ===== */
+  .yz-toast{
+    position:fixed;left:50%;bottom:36px;transform:translate(-50%,20px);
+    background:#332b23;color:#f7ecd9;font-size:13.5px;
+    padding:11px 22px;border-radius:24px;z-index:120;
+    opacity:0;visibility:hidden;transition:.3s;letter-spacing:.5px;
+    box-shadow:0 12px 30px rgba(0,0,0,.25);white-space:nowrap;
+  }
+  .yz-toast.yz-show{opacity:1;visibility:visible;transform:translate(-50%,0)}
+
+  .yz-modal{
+    position:fixed;inset:0;z-index:110;display:none;
+    align-items:center;justify-content:center;padding:24px;
+    background:rgba(30,22,15,.55);backdrop-filter:blur(3px);
+  }
+  .yz-modal.yz-show{display:flex}
+  .yz-modal-card{
+    background:#fff;border-radius:20px;max-width:460px;width:100%;
+    padding:30px;position:relative;box-shadow:0 30px 70px rgba(0,0,0,.3);
+    animation:yzPop .3s ease;
+  }
+  @keyframes yzPop{from{transform:scale(.94);opacity:0}to{transform:scale(1);opacity:1}}
+  .yz-modal-card h3{font-size:20px;margin-bottom:8px;letter-spacing:1px}
+  .yz-modal-card p{font-size:13.5px;color:var(--yz-ink-soft);margin-bottom:18px;line-height:1.75}
+  .yz-modal-close{
+    position:absolute;right:16px;top:14px;width:32px;height:32px;
+    border-radius:50%;background:#f4ead9;color:#7a6550;font-size:18px;
+    display:grid;place-items:center;line-height:1;
+  }
+  .yz-modal-close:hover{background:#ecdcc4}
+  .yz-share-row{display:flex;gap:10px;flex-wrap:wrap}
+  .yz-share-btn{
+    flex:1;min-width:96px;background:#fbf6ec;border:1px solid #eee0ca;
+    border-radius:12px;padding:12px;text-align:center;font-size:13px;
+    font-weight:600;transition:.2s;
+  }
+  .yz-share-btn:hover{background:#f4e7d3;border-color:#e5c9a5}
+  .yz-form-row{display:grid;gap:10px;margin-bottom:16px}
+  .yz-form-row input,.yz-form-row textarea{
+    border:1px solid #e6dac7;border-radius:10px;padding:11px 14px;
+    font-size:13.5px;font-family:inherit;outline:none;background:#fdfaf4;
+    color:var(--yz-ink);width:100%;resize:vertical;
+  }
+  .yz-form-row input:focus,.yz-form-row textarea:focus{border-color:var(--yz-amber)}
+
+  /* ===== 响应式 ===== */
+  @media (max-width:1000px){
+    .yz-hero-grid{grid-template-columns:1fr;gap:36px}
+    .yz-hero-visual{max-width:560px}
+    .yz-chip-a{left:6px}
+    .yz-chip-b{right:6px}
+    .yz-feature-grid{grid-template-columns:1fr}
+    .yz-feature-side{grid-template-rows:none;grid-template-columns:1fr 1fr}
+    .yz-flow-grid{grid-template-columns:repeat(2,1fr)}
+    .yz-topic-grid{grid-template-columns:1fr 1fr}
+    .yz-creator-grid{grid-template-columns:1fr 1fr}
+    .yz-review-grid{grid-template-columns:1fr 1fr}
+    .yz-rank-grid{grid-template-columns:1fr}
+    .yz-about-grid{grid-template-columns:1fr;gap:28px}
+    .yz-about-visual{position:static}
+    .yz-faq-grid{grid-template-columns:1fr}
+    .yz-bottom-grid{grid-template-columns:1fr}
+    .yz-footer-grid{grid-template-columns:1fr 1fr}
+    .yz-wall{grid-template-columns:repeat(2,1fr);grid-auto-rows:160px}
+    .yz-wall-big{grid-column:span 2}
+  }
+  @media (max-width:760px){
+    html{scroll-padding-top:132px}
+    .yz-header .yz-wrap{height:64px;flex-wrap:wrap}
+    .yz-nav{
+      display:none;order:5;width:100%;padding:10px 0 16px;
+      border-top:1px solid var(--yz-line);margin-top:2px;gap:4px;
+    }
+    .yz-nav.yz-open{display:flex}
+    .yz-nav a{flex:1 1 30%;text-align:center;background:#faf4e9;font-size:13.5px}
+    .yz-search{display:none}
+    .yz-burger{display:flex}
+    .yz-section{padding:46px 0}
+    .yz-hero{padding:38px 0 30px}
+    .yz-hero-stats{gap:24px}
+    .yz-stat strong{font-size:24px}
+    .yz-feature-side{grid-template-columns:1fr}
+    .yz-flow-grid{grid-template-columns:1fr}
+    .yz-topic-grid{grid-template-columns:1fr}
+    .yz-creator-grid{grid-template-columns:1fr}
+    .yz-review-grid{grid-template-columns:1fr}
+    .yz-news-item{grid-template-columns:1fr auto;gap:6px 12px}
+    .yz-news-date{grid-column:1/-1;font-size:12px}
+    .yz-footer-grid{grid-template-columns:1fr}
+    .yz-footer-bottom{flex-direction:column;gap:6px}
+    .yz-announce .yz-wrap{font-size:12px;padding:8px 18px}
+    .yz-announce-roll{height:20px}
+    .yz-announce-roll span{animation-duration:16s}
+    .yz-top-btn{right:16px;bottom:16px;width:44px;height:44px}
+  }
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- 吸顶区域：公告条 + 页头 -->
+<div class="yz-sticky">
+  <div class="yz-announce">
+    <div class="yz-wrap">
+      <span class="yz-announce-badge">官方发布</span>
+      <div class="yz-announce-roll">
+        <span>新增「棉纱溯源 · 夏款小白袜织造全记录」影像专题 6 部 · 创作者「袜里山河」入驻并发布 3 支新片 · 十一月会员专区上线「脚踝留白」配色企划 · 社区投稿通道本周开放 120 个名额 · <a href="#yz-news">查看全部更新</a></span>
+      </div>
+    </div>
+  </div>
+
+  <header class="yz-header">
+    <div class="yz-wrap">
+      <a class="yz-logo" href="#yz-top">
+        <span class="yz-logo-mark">玉足</span>
+        <span class="yz-logo-text">
+          <strong>玉足小白袜</strong>
+          <em>OFFICIAL SITE</em>
+        </span>
+      </a>
+      <nav class="yz-nav" id="yzNav">
+        <a href="#yz-top">首页</a>
+        <a href="#yz-focus">视频焦点</a>
+        <a href="#yz-topics">专题企划</a>
+        <a href="#yz-creators">创作者</a>
+        <a href="#yz-about">品牌故事</a>
+        <a href="#yz-news">企业动态</a>
+        <a href="#yz-faq">帮助</a>
+        <a href="#yz-contact">联系</a>
+      </nav>
+      <div class="yz-header-tools">
+        <div class="yz-search">
+          <input type="text" id="yzSearchInput" placeholder="搜索影像 / 创作者" aria-label="站内搜索">
+          <button type="button" id="yzSearchBtn">搜索</button>
+        </div>
+        <button class="yz-burger" id="yzBurger" aria-label="展开导航" aria-expanded="false">
+          <i></i><i></i><i></i>
+        </button>
+      </div>
+    </div>
+  </header>
+  <div class="yz-search-tip" id="yzSearchTip">
+    <div class="yz-wrap" id="yzSearchTipText"></div>
+  </div>
+</div>
+
+<main id="yz-top">
+
+  <!-- ===== 首屏 ===== -->
+  <section class="yz-hero">
+    <div class="yz-wrap yz-hero-grid">
+      <div class="yz-hero-copy">
+        <span class="yz-hero-kicker">玉足小白袜 · 官方网站</span>
+        <h1>玉足<span>小白袜</span></h1>
+        <p class="yz-hero-slogan">把脚踝留白，把日子过软。</p>
+        <p class="yz-hero-intro">玉足小白袜是专注棉质白袜研发与生活影像记录的原创品牌。我们以精梳棉、无骨缝工艺与稳定回弹的罗纹结构，做出真正适合日常穿着的白袜；也用镜头记录穿它的人、走过的路和每个被认真对待的清晨。</p>
+        <div class="yz-hero-actions">
+          <a class="yz-btn yz-btn-primary" href="#yz-flow">进入影像社区 ▸</a>
+          <a class="yz-btn yz-btn-ghost" href="#yz-about">品牌故事</a>
+          <button class="yz-btn yz-btn-ghost" type="button" id="yzShareBtnHero">分享官网</button>
+        </div>
+        <div class="yz-hero-stats">
+          <div class="yz-stat"><strong data-yz-count="1280">0</strong><span>累计影像作品</span></div>
+          <div class="yz-stat"><strong data-yz-count="326">0</strong><span>入驻创作者</span></div>
+          <div class="yz-stat"><strong data-yz-count="98">0</strong><span>% 复购口碑</span></div>
+        </div>
+      </div>
+      <div class="yz-hero-visual">
+        <div class="yz-hero-frame">
+          <svg viewBox="0 0 640 420" role="img" aria-label="玉足小白袜品牌主视觉：米白棉袜与木质地板上的清晨光影">
+            <defs>
+              <linearGradient id="yzHeroBg" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#f7ecdc"/>
+                <stop offset="1" stop-color="#e9d6bd"/>
+              </linearGradient>
+              <linearGradient id="yzHeroSock" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#ffffff"/>
+                <stop offset="1" stop-color="#f1e7d7"/>
+              </linearGradient>
+            </defs>
+            <rect width="640" height="420" fill="url(#yzHeroBg)"/>
+            <circle cx="520" cy="80" r="86" fill="#fdf6ea" opacity=".85"/>
+            <rect x="0" y="300" width="640" height="120" fill="#d9c1a2" opacity=".65"/>
+            <path d="M0 300h640" stroke="#c9ae8c" stroke-width="2" opacity=".7"/>
+            <g opacity=".3" stroke="#b99b74" stroke-width="2">
+              <path d="M60 320h120M220 340h140M420 320h160M100 372h180M340 386h200"/>
+            </g>
+            <g transform="translate(240 210) rotate(-6)">
+              <rect x="0" y="0" width="34" height="130" rx="17" fill="url(#yzHeroSock)" stroke="#e3d3ba" stroke-width="2"/>
+              <path d="M6 20h22M6 34h22M6 48h22" stroke="#efe3d0" stroke-width="2"/>
+            </g>
+            <g transform="translate(300 250) rotate(4)">
+              <rect x="0" y="0" width="38" height="120" rx="19" fill="url(#yzHeroSock)" stroke="#e3d3ba" stroke-width="2"/>
+              <path d="M8 18h22M8 32h22M8 46h22" stroke="#efe3d0" stroke-width="2"/>
+              <path d="M0 96q19 16 38 0v10q-19 16-38 0z" fill="#f7efe2"/>
+            </g>
+            <path d="M120 120q60-40 120 0t120 0" stroke="#d8bfa0" stroke-width="3" fill="none" stroke-linecap="round" opacity=".8"/>
+            <circle cx="470" cy="200" r="10" fill="#e08a56" opacity=".8"/>
+            <circle cx="500" cy="176" r="5" fill="#3f6f6a" opacity=".7"/>
+            <text x="34" y="404" font-size="13" fill="#8d7458" font-family="sans-serif" letter-spacing="3">MORNING · COTTON · SOFT</text>
+          </svg>
+        </div>
+        <div class="yz-hero-chip yz-chip-a">🧦 无骨缝袜头 · 不硌脚</div>
+        <div class="yz-hero-chip yz-chip-b"><span class="yz-chip-dot"></span>本月新增 68 部作品</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 焦点视频 ===== -->
+  <section class="yz-section yz-section-alt" id="yz-focus">
+    <div class="yz-wrap">
+      <div class="yz-sec-head">
+        <div>
+          <h2>视频焦点 · 编辑精选</h2>
+          <p>由玉足小白袜内容团队与社区创作者共同推选的精品影像，看见一双白袜如何在真实生活里被穿出温度。</p>
+        </div>
+        <a class="yz-sec-more" href="#yz-flow">浏览全部内容 ▸</a>
+      </div>
+
+      <div class="yz-feature-grid">
+        <article class="yz-vcard yz-feature-main">
+          <div class="yz-vcard-cover">
+            <div class="yz-cover-inner">
+              <svg viewBox="0 0 640 360" role="img" aria-label="专题影像封面：清晨窗边整理一叠洁白棉袜的双手">
+                <defs>
+                  <linearGradient id="yzF1" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="#f3e6d2"/>
+                    <stop offset="1" stop-color="#ddc3a3"/>
+                  </linearGradient>
+                </defs>
+                <rect width="640" height="360" fill="url(#yzF1)"/>
+                <rect x="60" y="40" width="200" height="260" rx="8" fill="#fdf8ef" opacity=".85"/>
+                <rect x="60" y="40" width="200" height="260" rx="8" fill="none" stroke="#c9ae8c" stroke-width="3"/>
+                <path d="M60 170h200M160 40v260" stroke="#d9c1a2" stroke-width="3"/>
+                <g transform="translate(330 120)">
+                  <rect x="0" y="0" width="46" height="150" rx="22" fill="#fff" stroke="#e5d5bd" stroke-width="2"/>
+                  <rect x="58" y="14" width="46" height="140" rx="22" fill="#fdf7ed" stroke="#e5d5bd" stroke-width="2"/>
+                  <rect x="116" y="4" width="46" height="146" rx="22" fill="#fff" stroke="#e5d5bd" stroke-width="2"/>
+                  <path d="M10 28h26M10 44h26M68 40h26M68 56h26M126 32h26M126 48h26" stroke="#efe4d3" stroke-width="2.5"/>
+                </g>
+                <circle cx="520" cy="80" r="30" fill="#f0b98c" opacity=".7"/>
+                <path d="M470 300q40-30 80 0" stroke="#c9ae8c" stroke-width="3" fill="none" stroke-linecap="round"/>
+                <text x="40" y="330" font-size="12" fill="#8d7458" font-family="sans-serif" letter-spacing="2">FOLD · STACK · SUNLIGHT</text>
+              </svg>
+              <span class="yz-cover-tag">编辑精选</span>
+              <span class="yz-cover-dur">08:42</span>
+              <div class="yz-play"><span></span></div>
+            </div>
+          </div>
+          <div class="yz-vcard-body">
+            <h3 class="yz-vcard-title">一叠白袜的清晨：把棉纱洗到最软的那一步，我们试了 37 次</h3>
+            <p class="yz-vcard-desc">从纱线到成袜，玉足小白袜的研发组把「柔软」拆成可测量的指标。这支影像记录了水洗工艺迭代的三个关键节点，也记录了老师傅手背上的褶皱。</p>
+            <div class="yz-vcard-tags"><span class="yz-tag">品牌故事</span><span class="yz-tag">工艺纪录</span><span class="yz-tag">正版高清</span></div>
+            <div class="yz-vcard-meta">
+              <span class="yz-author-mini"><span class="yz-avatar" style="background:#c4693a">玉</span>玉足官方影像组</span>
+              <div class="yz-actions">
+                <button class="yz-act yz-like" type="button" data-count="1286">♡ <span>1286</span></button>
+                <button class="yz-act yz-fav" type="button">☆ 收藏</button>
+                <button class="yz-act yz-comment" type="button" data-title="一叠白袜的清晨">💬 评论</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="yz-feature-side">
+          <article class="yz-vcard">
+            <div class="yz-vcard-cover">
+              <div class="yz-cover-inner">
+                <svg viewBox="0 0 640 360" role="img" aria-label="影像封面：木地板上一双白袜与行李箱的旅行出发场景">
+                  <rect width="640" height="360" fill="#e8eef0"/>
+                  <rect y="250" width="640" height="110" fill="#cbd7d6"/>
+                  <rect x="90" y="90" width="170" height="170" rx="12" fill="#f6f1e6"/>
+                  <rect x="90" y="150" width="170" height="16" fill="#dcd0ba"/>
+                  <circle cx="120" cy="238" r="12" fill="#9aa8a6"/>
+                  <circle cx="230" cy="238" r="12" fill="#9aa8a6"/>
+                  <g transform="translate(360 120) rotate(8)">
+                    <rect x="0" y="0" width="40" height="128" rx="20" fill="#fff" stroke="#dbe3e2" stroke-width="2"/>
+                  </g>
+                  <g transform="translate(410 140) rotate(-4)">
+                    <rect x="0" y="0" width="40" height="118" rx="20" fill="#fbf8f2" stroke="#dbe3e2" stroke-width="2"/>
+                  </g>
+                  <path d="M300 80q40-28 80 0" stroke="#b9c8c6" stroke-width="3" fill="none" stroke-linecap="round"/>
+                  <text x="40" y="330" font-size="12" fill="#6e7f7d" font-family="sans-serif" letter-spacing="2">PACK · GO · LIGHT</text>
+                </svg>
+                <span class="yz-cover-tag">城市探索</span>
+                <span class="yz-cover-dur">12:06</span>
+                <div class="yz-play"><span></span></div>
+              </div>
+            </div>
+            <div class="yz-vcard-body">
+              <h3 class="yz-vcard-title">带 3 双白袜出发：48 小时轻装小城的行走攻略</h3>
+              <div class="yz-vcard-meta">
+                <span class="yz-author-mini"><span class="yz-avatar" style="background:#3f6f6a">旅</span>旅行的袜子</span>
+                <div class="yz-actions">
+                  <button class="yz-act yz-like" type="button" data-count="864">♡ <span>864</span></button>
+                  <button class="yz-act yz-fav" type="button">☆ 收藏</button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="yz-vcard">
+            <div class="yz-vcard-cover">
+              <div class="yz-cover-inner">
+                <svg viewBox="0 0 640 360" role="img" aria-label="影像封面：暖橙色系洗衣房内晾晒白袜的日常画面">
+                  <rect width="640" height="360" fill="#f6dcc6"/>
+                  <circle cx="540" cy="70" r="70" fill="#fbead8" opacity=".9"/>
+                  <path d="M40 70h560" stroke="#c99a72" stroke-width="4" stroke-linecap="round"/>
+                  <g>
+                    <line x1="150" y1="70" x2="150" y2="110" stroke="#c99a72" stroke-width="3"/>
+                    <rect x="126" y="110" width="48" height="120" rx="22" fill="#fff" stroke="#ecd9c2" stroke-width="2"/>
+                  </g>
+                  <g>
+                    <line x1="320" y1="70" x2="320" y2="96" stroke="#c99a72" stroke-width="3"/>
+                    <rect x="296" y="96" width="48" height="128" rx="22" fill="#fdf8f0" stroke="#ecd9c2" stroke-width="2"/>
+                  </g>
+                  <g>
+                    <line x1="480" y1="70" x2="480" y2="120" stroke="#c99a72" stroke-width="3"/>
+                    <rect x="456" y="120" width="48" height="112" rx="22" fill="#fff" stroke="#ecd9c2" stroke-width="2"/>
+                  </g>
+                  <rect y="290" width="640" height="70" fill="#e2b58d" opacity=".55"/>
+                  <text x="40" y="330" font-size="12" fill="#8d5f3a" font-family="sans-serif" letter-spacing="2">WASH · DRY · REPEAT</text>
+                </svg>
+                <span class="yz-cover-tag">日常记录</span>
+                <span class="yz-cover-dur">05:31</span>
+                <div class="yz-play"><span></span></div>
+              </div>
+            </div>
+            <div class="yz-vcard-body">
+              <h3 class="yz-vcard-title">白袜洗护避坑：第 3 步做错，袜口两个月就松了</h3>
+              <div class="yz-vcard-meta">
+                <span class="yz-author-mini"><span class="yz-avatar" style="background:#d1954f">洗</span>收纳小满</span>
+                <div class="yz-actions">
+                  <button class="yz-act yz-like" type="button" data-count="572">♡ <span>572</span></button>
+                  <button class="yz-act yz-fav" type="button">☆ 收藏</button>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 热门视频流 ===== -->
+  <section class="yz-section" id="yz-flow">
+    <div class="yz-wrap">
+      <div class="yz-sec-head">
+        <div>
+          <h2>社区热门影像流</h2>
+          <p>创作者持续上传的真实日常，围绕玉足小白袜展开的经验分享、对比测评与生活记录。</p>
+        </div>
+        <a class="yz-sec-more" href="#yz-topics">看专题企划 ▸</a>
+      </div>
+
+      <div class="yz-flow-grid">
+        <article class="yz-vcard">
+          <div class="yz-vcard-cover">
+            <div class="yz-cover-inner">
+              <svg viewBox="0 0 640 360" role="img" aria-label="视频封面：三种厚度白袜平铺对比测评桌面">
+                <rect width="640" height="360" fill="#f0ece3"/>
+                <rect x="50" y="60" width="150" height="230" rx="10" fill="#fff" stroke="#e0d7c7" stroke-width="2"/>
+                <rect x="235" y="60" width="150" height="230" rx="10" fill="#fdfbf6" stroke="#e0d7c7" stroke-width="2"/>
+                <rect x="420" y="60" width="150" height="230" rx="10" fill="#fff" stroke="#e0d7c7" stroke-width="2"/>
+                <rect x="90" y="100" width="70" height="150" rx="30" fill="#f5efe3"/>
+                <rect x="275" y="100" width="70" height="150" rx="30" fill="#f8f3e9"/>
+                <rect x="460" y="100" width="70" height="150" rx="30" fill="#f5efe3"/>
+                <text x="78" y="330" font-size="13" fill="#80715c" font-family="sans-serif">薄款 120D</text>
+                <text x="258" y="330" font-size="13" fill="#80715c" font-family="sans-serif">日常款 160D</text>
+                <text x="448" y="330" font-size="13" fill="#80715c" font-family="sans-serif">加厚款 220D</text>
+              </svg>
+              <span class="yz-cover-tag">深度测评</span>
+              <span class="yz-cover-dur">09:18</span>
+              <div class="yz-play"><span></span></div>
+            </div>
+          </div>
+          <div class="yz-vcard-body">
+            <h3 class="yz-vcard-title">三种厚度白袜横评：通勤、居家、运动到底怎么选</h3>
+            <p class="yz-vcard-desc">实测透气度、回弹与起球情况，附一张可直接照抄的选购对照表。</p>
+            <div class="yz-vcard-meta">
+              <span class="yz-author-mini"><span class="yz-avatar" style="background:#3f6f6a">测</span>袜子实验室</span>
+              <div class="yz-actions">
+                <button class="yz-act yz-like" type="button" data-count="942">♡ <span>942</span></button>
+                <button class="yz-act yz-fav" type="button">☆ 收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="yz-vcard">
+          <div class="yz-vcard-cover">
+            <div class="yz-cover-inner">
+              <svg viewBox="0 0 640 360" role="img" aria-label="视频封面：咖啡馆窗边低头系鞋带的穿搭镜头">
+                <rect width="640" height="360" fill="#e4e9e6"/>
+                <rect x="0" y="230" width="640" height="130" fill="#cdb79a"/>
+                <rect x="80" y="30" width="180" height="200" rx="6" fill="#f6f3ea" opacity=".85"/>
+                <path d="M80 130h180M170 30v200" stroke="#cfc3ae" stroke-width="3"/>
+                <g transform="translate(330 90)">
+                  <ellipse cx="60" cy="160" rx="70" ry="26" fill="#b39e82" opacity=".6"/>
+                  <rect x="30" y="20" width="60" height="120" rx="16" fill="#f4ede1"/>
+                  <path d="M30 120q60 24 60 0" stroke="#e0d3bd" stroke-width="3" fill="none"/>
+                  <rect x="20" y="132" width="80" height="26" rx="13" fill="#6f8b84"/>
+                </g>
+                <circle cx="520" cy="80" r="46" fill="#f0e2c9" opacity=".7"/>
+                <text x="40" y="330" font-size="12" fill="#7d7259" font-family="sans-serif" letter-spacing="2">SNEAKER · SOCK · STYLE</text>
+              </svg>
+              <span class="yz-cover-tag">生活方式</span>
+              <span class="yz-cover-dur">06:44</span>
+              <div class="yz-play"><span></span></div>
+            </div>
+          </div>
+          <div class="yz-vcard-body">
+            <h3 class="yz-vcard-title">白袜配球鞋的 5 种安全穿法，脚踝留白比例是关键</h3>
+            <p class="yz-vcard-desc">从裤脚长度到袜口高度，用镜头把比例讲清楚，不用死记规则。</p>
+            <div class="yz-vcard-meta">
+              <span class="yz-author-mini"><span class="yz-avatar" style="background:#c4693a">搭</span>日常穿搭簿</span>
+              <div class="yz-actions">
+                <button class="yz-act yz-like" type="button" data-count="735">♡ <span>735</span></button>
+                <button class="yz-act yz-fav" type="button">☆ 收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="yz-vcard">
+          <div class="yz-vcard-cover">
+            <div class="yz-cover-inner">
+              <svg viewBox="0 0 640 360" role="img" aria-label="视频封面：编织机与棉纱线轴的手作工坊场景">
+                <rect width="640" height="360" fill="#efe4d2"/>
+                <circle cx="100" cy="70" r="54" fill="#f8efdf"/>
+                <g transform="translate(210 60)">
+                  <circle cx="70" cy="70" r="52" fill="#fff" stroke="#d8c8ae" stroke-width="3"/>
+                  <circle cx="70" cy="70" r="20" fill="#e08a56"/>
+                  <path d="M70 18v52M70 122v-52M18 70h52M122 70h-52M33 33l37 37M107 33L70 70M33 107l37-37M107 107L70 70" stroke="#d8c8ae" stroke-width="3"/>
+                </g>
+                <g transform="translate(360 120)">
+                  <rect x="0" y="0" width="120" height="26" rx="6" fill="#c4693a"/>
+                  <rect x="10" y="26" width="100" height="14" rx="4" fill="#8a5a2c" opacity=".7"/>
+                  <rect x="20" y="40" width="80" height="10" rx="5" fill="#3f6f6a" opacity=".8"/>
+                </g>
+                <g transform="translate(430 210)">
+                  <ellipse cx="50" cy="50" rx="42" ry="16" fill="#ddc7a6"/>
+                  <path d="M8 50v40c0 9 19 16 42 16s42-7 42-16V50" fill="#efe1c9"/>
+                  <path d="M8 72c0 9 19 16 42 16s42-7 42-16" stroke="#d6c1a0" stroke-width="3" fill="none"/>
+                </g>
+                <text x="40" y="330" font-size="12" fill="#8a6c46" font-family="sans-serif" letter-spacing="2">YARN · LOOM · HAND</text>
+              </svg>
+              <span class="yz-cover-tag">创作幕后</span>
+              <span class="yz-cover-dur">14:52</span>
+              <div class="yz-play"><span></span></div>
+            </div>
+          </div>
+          <div class="yz-vcard-body">
+            <h3 class="yz-vcard-title">从纱线到袜子：跟着织造师傅走完 12 道工序</h3>
+            <p class="yz-vcard-desc">走进合作工厂的织机车间，看一双袜子的 4 小时与 30 年手艺。</p>
+            <div class="yz-vcard-meta">
+              <span class="yz-author-mini"><span class="yz-avatar" style="background:#8a6c46">匠</span>手作研习社</span>
+              <div class="yz-actions">
+                <button class="yz-act yz-like" type="button" data-count="1108">♡ <span>1108</span></button>
+                <button class="yz-act yz-fav" type="button">☆ 收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="yz-vcard">
+          <div class="yz-vcard-cover">
+            <div class="yz-cover-inner">
+              <svg viewBox="0 0 640 360" role="img" aria-label="视频封面：抽屉式收纳格中卷好的白袜排列">
+                <rect width="640" height="360" fill="#e7e2da"/>
+                <rect x="40" y="50" width="560" height="260" rx="12" fill="#fdfbf6" stroke="#d9d2c6" stroke-width="3"/>
+                <g fill="#f3ede1" stroke="#e3dbcc" stroke-width="2">
+                  <rect x="70" y="85" width="80" height="80" rx="8"/>
+                  <rect x="170" y="85" width="80" height="80" rx="8"/>
+                  <rect x="270" y="85" width="80" height="80" rx="8"/>
+                  <rect x="370" y="85" width="80" height="80" rx="8"/>
+                  <rect x="470" y="85" width="80" height="80" rx="8"/>
+                  <rect x="70" y="185" width="80" height="80" rx="8"/>
+                  <rect x="170" y="185" width="80" height="80" rx="8"/>
+                  <rect x="270" y="185" width="80" height="80" rx="8"/>
+                  <rect x="370" y="185" width="80" height="80" rx="8"/>
+                  <rect x="470" y="185" width="80" height="80" rx="8"/>
+                </g>
+                <g fill="#fff" stroke="#e3dbcc" stroke-width="2">
+                  <rect x="88" y="100" width="44" height="52" rx="16"/>
+                  <rect x="188" y="100" width="44" height="52" rx="16"/>
+                  <rect x="288" y="100" width="44" height="52" rx="16"/>
+                  <rect x="88" y="200" width="44" height="52" rx="16"/>
+                  <rect x="288" y="200" width="44" height="52" rx="16"/>
+                  <rect x="388" y="200" width="44" height="52" rx="16"/>
+                  <rect x="488" y="200" width="44" height="52" rx="16"/>
+                </g>
+                <text x="40" y="340" font-size="12" fill="#807664" font-family="sans-serif" letter-spacing="2">NEAT · FOLD · HOME</text>
+              </svg>
+              <span class="yz-cover-tag">收纳技巧</span>
+              <span class="yz-cover-dur">07:10</span>
+              <div class="yz-play"><span></span></div>
+            </div>
+          </div>
+          <div class="yz-vcard-body">
+            <h3 class="yz-vcard-title">30 格抽屉只放白袜？我的极简收纳改造记录</h3>
+            <p class="yz-vcard-desc">把袜类分区、卷折方式和换季清单一次说清，附收纳尺寸标注。</p>
+            <div class="yz-vcard-meta">
+              <span class="yz-author-mini"><span class="yz-avatar" style="background:#9a5a2a">收</span>收纳小满</span>
+              <div class="yz-actions">
+                <button class="yz-act yz-like" type="button" data-count="486">♡ <span>486</span></button>
+                <button class="yz-act yz-fav" type="button">☆ 收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="yz-vcard">
+          <div class="yz-vcard-cover">
+            <div class="yz-cover-inner">
+              <svg viewBox="0 0 640 360" role="img" aria-label="视频封面：秋日落叶小径上行走的双脚与白袜">
+                <rect width="640" height="360" fill="#f2e3c8"/>
+                <path d="M0 300q160-60 320 0t320-20v80H0z" fill="#d8b97f"/>
+                <path d="M0 320q160-40 320 0t320-20v60H0z" fill="#c7a364" opacity=".7"/>
+                <g transform="translate(250 120)">
+                  <rect x="0" y="0" width="46" height="130" rx="22" fill="#fff" stroke="#e2d3b8" stroke-width="2"/>
+                  <path d="M0 118q23 20 46 0v10q-23 20-46 0z" fill="#f5ebd8"/>
+                </g>
+                <g transform="translate(330 150)">
+                  <rect x="0" y="0" width="46" height="118" rx="22" fill="#fdf8ef" stroke="#e2d3b8" stroke-width="2"/>
+                </g>
+                <g fill="#c98f4e" opacity=".8">
+                  <circle cx="120" cy="120" r="12"/>
+                  <circle cx="530" cy="90" r="16"/>
+                  <circle cx="470" cy="180" r="9"/>
+                </g>
+                <text x="40" y="340" font-size="12" fill="#8a6b3c" font-family="sans-serif" letter-spacing="2">AUTUMN · WALK · WHITE</text>
+              </svg>
+              <span class="yz-cover-tag">治愈影像</span>
+              <span class="yz-cover-dur">04:26</span>
+              <div class="yz-play"><span></span></div>
+            </div>
+          </div>
+          <div class="yz-vcard-body">
+            <h3 class="yz-vcard-title">秋天最适合走路的下午，白袜与落叶的十八分钟</h3>
+            <p class="yz-vcard-desc">没有台词的慢镜头，只留下脚步声、风和一点点光。</p>
+            <div class="yz-vcard-meta">
+              <span class="yz-author-mini"><span class="yz-avatar" style="background:#6f8b84">光</span>慢镜头计划</span>
+              <div class="yz-actions">
+                <button class="yz-act yz-like" type="button" data-count="658">♡ <span>658</span></button>
+                <button class="yz-act yz-fav" type="button">☆ 收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="yz-vcard">
+          <div class="yz-vcard-cover">
+            <div class="yz-cover-inner">
+              <svg viewBox="0 0 640 360" role="img" aria-label="视频封面：跑步训练后脚踝与袜口细节特写">
+                <rect width="640" height="360" fill="#dfe6e4"/>
+                <rect y="260" width="640" height="100" fill="#b9c9c6"/>
+                <g transform="translate(240 70)">
+                  <rect x="0" y="0" width="64" height="160" rx="28" fill="#fff" stroke="#d5dfdc" stroke-width="2"/>
+                  <path d="M0 30h64M0 48h64M0 66h64" stroke="#eaf0ee" stroke-width="3"/>
+                  <rect x="6" y="150" width="52" height="20" rx="10" fill="#3f6f6a"/>
+                </g>
+                <g transform="translate(350 110)">
+                  <rect x="0" y="0" width="56" height="130" rx="26" fill="#fdfbf6" stroke="#d5dfdc" stroke-width="2"/>
+                </g>
+                <circle cx="120" cy="90" r="40" fill="#fff" opacity=".5"/>
+                <text x="40" y="330" font-size="12" fill="#5e7370" font-family="sans-serif" letter-spacing="2">RUN · CUSHION · BREATH</text>
+              </svg>
+              <span class="yz-cover-tag">健康运动</span>
+              <span class="yz-cover-dur">10:35</span>
+              <div class="yz-play"><span></span></div>
+            </div>
+          </div>
+          <div class="yz-vcard-body">
+            <h3 class="yz-vcard-title">5 公里后脚跟起泡？先检查袜子的这 3 个位置</h3>
+            <p class="yz-vcard-desc">跑步爱好者实测：袜头、足弓与袜口的摩擦点到底怎么避开。</p>
+            <div class="yz-vcard-meta">
+              <span class="yz-author-mini"><span class="yz-avatar" style="background:#4b7b74">跑</span>慢跑阿野</span>
+              <div class="yz-actions">
+                <button class="yz-act yz-like" type="button" data-count="712">♡ <span>712</span></button>
+                <button class="yz-act yz-fav" type="button">☆ 收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="yz-vcard">
+          <div class="yz-vcard-cover">
+            <div class="yz-cover-inner">
+              <svg viewBox="0 0 640 360" role="img" aria-label="视频封面：手作染色白袜在晾绳上排成一排">
+                <rect width="640" height="360" fill="#f6ded2"/>
+                <path d="M30 80h580" stroke="#b98667" stroke-width="4" stroke-linecap="round"/>
+                <g>
+                  <line x1="130" y1="80" x2="130" y2="106" stroke="#b98667" stroke-width="3"/>
+                  <rect x="106" y="106" width="48" height="118" rx="22" fill="#fff" stroke="#e7cfc0" stroke-width="2"/>
+                </g>
+                <g>
+                  <line x1="270" y1="80" x2="270" y2="96" stroke="#b98667" stroke-width="3"/>
+                  <rect x="246" y="96" width="48" height="124" rx="22" fill="#fdf6f2" stroke="#e7cfc0" stroke-width="2"/>
+                </g>
+                <g>
+                  <line x1="410" y1="80" x2="410" y2="112" stroke="#b98667" stroke-width="3"/>
+                  <rect x="386" y="112" width="48" height="112" rx="22" fill="#fff" stroke="#e7cfc0" stroke-width="2"/>
+                </g>
+                <g>
+                  <line x1="540" y1="80" x2="540" y2="100" stroke="#b98667" stroke-width="3"/>
+                  <rect x="516" y="100" width="48" height="120" rx="22" fill="#fdf6f2" stroke="#e7cfc0" stroke-width="2"/>
+                </g>
+                <ellipse cx="120" cy="300" rx="60" ry="16" fill="#e6b8a1" opacity=".6"/>
+                <text x="40" y="340" font-size="12" fill="#96674c" font-family="sans-serif" letter-spacing="2">DYE · RINSE · SUN</text>
+              </svg>
+              <span class="yz-cover-tag">手作 DIY</span>
+              <span class="yz-cover-dur">16:20</span>
+              <div class="yz-play"><span></span></div>
+            </div>
+          </div>
+          <div class="yz-vcard-body">
+            <h3 class="yz-vcard-title">用茶汤染一双旧白袜：失败两次后的配方与步骤</h3>
+            <p class="yz-vcard-desc">天然染色并非想象中简单，浓度、时间与水质都会改变结果。</p>
+            <div class="yz-vcard-meta">
+              <span class="yz-author-mini"><span class="yz-avatar" style="background:#a2624a">染</span>染色日记</span>
+              <div class="yz-actions">
+                <button class="yz-act yz-like" type="button" data-count="534">♡ <span>534</span></button>
+                <button class="yz-act yz-fav" type="button">☆ 收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="yz-vcard">
+          <div class="yz-vcard-cover">
+            <div class="yz-cover-inner">
+              <svg viewBox="0 0 640 360" role="img" aria-label="视频封面：采访镜头前创作者讲述与白袜有关的往事">
+                <rect width="640" height="360" fill="#e9e3d8"/>
+                <circle cx="230" cy="170" r="80" fill="#d9cdb8"/>
+                <ellipse cx="230" cy="150" rx="34" ry="38" fill="#f2e8d8"/>
+                <path d="M160 250q70-40 140 0v50H160z" fill="#c9bca5"/>
+                <rect x="380" y="80" width="200" height="200" rx="14" fill="#faf4e8" stroke="#ddd0bb" stroke-width="3"/>
+                <path d="M400 130h160M400 160h160M400 190h120M400 220h140" stroke="#d6c8b2" stroke-width="6" stroke-linecap="round"/>
+                <circle cx="470" cy="120" r="10" fill="#e08a56"/>
+                <text x="40" y="330" font-size="12" fill="#7d725f" font-family="sans-serif" letter-spacing="2">INTERVIEW · MEMORY · VOICE</text>
+              </svg>
+              <span class="yz-cover-tag">人物访谈</span>
+              <span class="yz-cover-dur">21:08</span>
+              <div class="yz-play"><span></span></div>
+            </div>
+          </div>
+          <div class="yz-vcard-body">
+            <h3 class="yz-vcard-title">「我妈织的袜子，我一直留着」——三代人的袜与记忆</h3>
+            <p class="yz-vcard-desc">三位不同年龄的讲述者，聊一聊脚上那点被忽略的温柔。</p>
+            <div class="yz-vcard-meta">
+              <span class="yz-author-mini"><span class="yz-avatar" style="background:#8a6c46">访</span>玉足影像访谈</span>
+              <div class="yz-actions">
+                <button class="yz-act yz-like" type="button" data-count="1273">♡ <span>1273</span></button>
+                <button class="yz-act yz-fav" type="button">☆ 收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 专题企划 ===== -->
+  <section class="yz-section yz-section-alt" id="yz-topics">
+    <div class="yz-wrap">
+      <div class="yz-sec-head">
+        <div>
+          <h2>专题企划 · 持续更新</h2>
+          <p>围绕玉足小白袜展开的系列内容企划，由官方发起、社区共创，长期连载。</p>
+        </div>
+        <a class="yz-sec-more" href="#yz-news">查看更新日志 ▸</a>
+      </div>
+
+      <div class="yz-topic-grid">
+        <div class="yz-topic" style="background:linear-gradient(140deg,#f4dbc2,#d79a62)">
+          <span class="yz-topic-state">连载中 · 更新至 06</span>
+          <h3>脚踝留白计划</h3>
+          <p>以白袜与脚踝之间的比例为主线，记录 12 位普通人的真实穿搭选择，每月更新一集。</p>
+        </div>
+        <div class="yz-topic" style="background:linear-gradient(140deg,#cfe0dd,#5f8d86)">
+          <span class="yz-topic-state">已完结 · 共 09 集</span>
+          <h3>一根棉纱的旅程</h3>
+          <p>从棉田到织机再到你的抽屉，完整追踪玉足小白袜的供应链，把工艺细节摊开给你看。</p>
+        </div>
+        <div class="yz-topic" style="background:linear-gradient(140deg,#e8d9c4,#a98356)">
+          <span class="yz-topic-state">征集中 · 距截止 12 天</span>
+          <h3>我的第一双白袜</h3>
+          <p>社区共创企划，征集与白袜有关的成长故事，入选作品将在官网首页与线下展同步呈现。</p>
+        </div>
+        <div class="yz-topic" style="background:linear-gradient(140deg,#dfe4ea,#7f8fa2)">
+          <span class="yz-topic-state">连载中 · 更新至 04</span>
+          <h3>洗涤实验室</h3>
+          <p>用可复现的实验对比不同洗护方式的损耗差异，为白袜的日常维护提供靠谱参考。</p>
+        </div>
+        <div class="yz-topic" style="background:linear-gradient(140deg,#f0dbc1,#c1784a)">
+          <span class="yz-topic-state">报名中 · 剩 30 席</span>
+          <h3>白袜创作挑战赛</h3>
+          <p>面向创作者的短片挑战，1 分钟内讲一个与白袜有关的生活瞬间，评审团由社区投票产生。</p>
+        </div>
+        <div class="yz-topic" style="background:linear-gradient(140deg,#d5e3d6,#66856a)">
+          <span class="yz-topic-state">预告 · 12 月上线</span>
+          <h3>冬日的厚袜子</h3>
+          <p>冬季特别企划，记录加厚款从打样到成衣的过程，以及五位北方用户的真实体感反馈。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 创作者矩阵 ===== -->
+  <section class="yz-section" id="yz-creators">
+    <div class="yz-wrap">
+      <div class="yz-sec-head">
+        <div>
+          <h2>创作者矩阵</h2>
+          <p>玉足小白袜内容生态中的长期创作者，他们用真实的镜头语言，持续输出值得信赖的日常内容。</p>
+        </div>
+        <a class="yz-sec-more" href="#yz-contact">申请入驻 ▸</a>
+      </div>
+
+      <div class="yz-creator-grid">
+        <article class="yz-creator">
+          <div class="yz-creator-ava" style="background:linear-gradient(140deg,#e8a06e,#c4693a)">匠</div>
+          <div class="yz-creator-info">
+            <h3>手作研习社 <span class="yz-verify">官方认证</span></h3>
+            <p class="yz-field">工艺纪录 · 创作幕后</p>
+            <p>蹲守工厂车间三年，专注把制造业的细节拍得不枯燥。代表作《一根棉纱的旅程》系列。</p>
+            <div class="yz-creator-nums"><span><b>86</b> 作品</span><span><b>4.2万</b> 关注</span></div>
+            <a class="yz-creator-more yz-author-open" href="javascript:void(0)" data-author="手作研习社" data-desc="蹲守工厂车间三年，专注把制造业的细节拍得不枯燥。代表作《一根棉纱的旅程》系列。" data-field="工艺纪录 · 创作幕后">查看创作者档案 ▸</a>
+          </div>
+        </article>
+
+        <article class="yz-creator">
+          <div class="yz-creator-ava" style="background:linear-gradient(140deg,#6f9c95,#3f6f6a)">测</div>
+          <div class="yz-creator-info">
+            <h3>袜子实验室 <span class="yz-verify">官方认证</span></h3>
+            <p class="yz-field">深度测评 · 实用技巧</p>
+            <p>用数据说话的内容小组，擅长把透气度、回弹率这类指标做成普通人看得懂的结论。</p>
+            <div class="yz-creator-nums"><span><b>64</b> 作品</span><span><b>5.7万</b> 关注</span></div>
+            <a class="yz-creator-more yz-author-open" href="javascript:void(0)" data-author="袜子实验室" data-desc="用数据说话的内容小组，擅长把透气度、回弹率这类指标做成普通人看得懂的结论。" data-field="深度测评 · 实用技巧">查看创作者档案 ▸</a>
+          </div>
+        </article>
+
+        <article class="yz-creator">
+          <div class="yz-creator-ava" style="background:linear-gradient(140deg,#d5a35c,#a5743a)">收</div>
+          <div class="yz-creator-info">
+            <h3>收纳小满</h3>
+            <p class="yz-field">家居收纳 · 日常记录</p>
+            <p>住在 42 平米小家的收纳博主，把衣柜、抽屉与袜类分区做到极致，内容实用不废话。</p>
+            <div class="yz-creator-nums"><span><b>112</b> 作品</span><span><b>6.1万</b> 关注</span></div>
+            <a class="yz-creator-more yz-author-open" href="javascript:void(0)" data-author="收纳小满" data-desc="住在 42 平米小家的收纳博主，把衣柜、抽屉与袜类分区做到极致，内容实用不废话。" data-field="家居收纳 · 日常记录">查看创作者档案 ▸</a>
+          </div>
+        </article>
+
+        <article class="yz-creator">
+          <div class="yz-creator-ava" style="background:linear-gradient(140deg,#8aa3b1,#55707f)">光</div>
+          <div class="yz-creator-info">
+            <h3>慢镜头计划</h3>
+            <p class="yz-field">治愈影像 · 生活美学</p>
+            <p>喜欢用长镜头和自然光记录行走，作品节奏缓慢，评论区常有人说看完想出门散步。</p>
+            <div class="yz-creator-nums"><span><b>48</b> 作品</span><span><b>3.4万</b> 关注</span></div>
+            <a class="yz-creator-more yz-author-open" href="javascript:void(0)" data-author="慢镜头计划" data-desc="喜欢用长镜头和自然光记录行走，作品节奏缓慢，评论区常有人说看完想出门散步。" data-field="治愈影像 · 生活美学">查看创作者档案 ▸</a>
+          </div>
+        </article>
+
+        <article class="yz-creator">
+          <div class="yz-creator-ava" style="background:linear-gradient(140deg,#c9907c,#96614f)">染</div>
+          <div class="yz-creator-info">
+            <h3>染色日记</h3>
+            <p class="yz-field">手作 DIY · 兴趣同好</p>
+            <p>专注天然染色的手作人，把失败的实验也剪进视频，希望让更多人敢于动手尝试。</p>
+            <div class="yz-creator-nums"><span><b>37</b> 作品</span><span><b>2.8万</b> 关注</span></div>
+            <a class="yz-creator-more yz-author-open" href="javascript:void(0)" data-author="染色日记" data-desc="专注天然染色的手作人，把失败的实验也剪进视频，希望让更多人敢于动手尝试。" data-field="手作 DIY · 兴趣同好">查看创作者档案 ▸</a>
+          </div>
+        </article>
+
+        <article class="yz-creator">
+          <div class="yz-creator-ava" style="background:linear-gradient(140deg,#7fa38a,#4c7a5a)">跑</div>
+          <div class="yz-creator-info">
+            <h3>慢跑阿野</h3>
+            <p class="yz-field">健康运动 · 经验分享</p>
+            <p>跑了八年马拉松的普通上班族，热衷分享运动装备的真实使用感受，只说踩过坑的部分。</p>
+            <div class="yz-creator-nums"><span><b>79</b> 作品</span><span><b>4.8万</b> 关注</span></div>
+            <a class="yz-creator-more yz-author-open" href="javascript:void(0)" data-author="慢跑阿野" data-desc="跑了八年马拉松的普通上班族，热衷分享运动装备的真实使用感受，只说踩过坑的部分。" data-field="健康运动 · 经验分享">查看创作者档案 ▸</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 品牌故事 / 深度解析 ===== -->
+  <section class="yz-section yz-section-alt" id="yz-about">
+    <div class="yz-wrap yz-about-grid">
+      <div class="yz-about-visual">
+        <svg viewBox="0 0 560 640" role="img" aria-label="玉足小白袜品牌故事配图：工作台上的棉袜样品与设计手稿">
+          <defs>
+            <linearGradient id="yzAb" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#f6eddf"/>
+              <stop offset="1" stop-color="#e3d2b8"/>
+            </linearGradient>
+          </defs>
+          <rect width="560" height="640" fill="url(#yzAb)"/>
+          <rect x="40" y="60" width="230" height="320" rx="10" fill="#fdfaf3" stroke="#d6c6ac" stroke-width="3"/>
+          <g stroke="#cfbfa4" stroke-width="2" fill="none">
+            <path d="M70 110h170M70 140h170M70 170h120M70 200h150M70 230h170M70 260h100"/>
+          </g>
+          <rect x="70" y="290" width="80" height="60" rx="8" fill="#f1e6d3"/>
+          <g transform="translate(320 90)">
+            <rect x="0" y="0" width="60" height="180" rx="30" fill="#fff" stroke="#e0d0b7" stroke-width="3"/>
+            <rect x="80" y="20" width="60" height="160" rx="30" fill="#fdf8ef" stroke="#e0d0b7" stroke-width="3"/>
+            <path d="M14 40h32M14 58h32M94 60h32M94 78h32" stroke="#f0e4d1" stroke-width="3"/>
+          </g>
+          <rect x="40" y="420" width="480" height="4" fill="#c9b696"/>
+          <g transform="translate(90 450)">
+            <circle cx="60" cy="60" r="46" fill="#fff" stroke="#d6c6ac" stroke-width="3"/>
+            <path d="M60 14v92M14 60h92" stroke="#e08a56" stroke-width="5" stroke-linecap="round"/>
+            <circle cx="60" cy="60" r="12" fill="#3f6f6a"/>
+          </g>
+          <g transform="translate(300 460)">
+            <rect x="0" y="0" width="140" height="14" rx="7" fill="#c9b696"/>
+            <rect x="10" y="14" width="120" height="10" rx="5" fill="#dccdb3"/>
+            <rect x="20" y="24" width="100" height="8" rx="4" fill="#e8dcc7"/>
+          </g>
+          <text x="40" y="614" font-size="13" fill="#8a7358" font-family="sans-serif" letter-spacing="3">SAMPLE · SKETCH · CARE</text>
+        </svg>
+      </div>
+
+      <div class="yz-about-text">
+        <h2>关于玉足小白袜</h2>
+        <p class="yz-about-lead">一双白袜，看起来是最不起眼的日常用品；但我们相信，它值得被认真对待。</p>
+        <p>玉足小白袜创立于 2019 年。最初只是一位从纺织专业毕业的年轻人，在出租屋里反复打样的个人项目。她发现，市面上许多白袜在洗过三次之后就变得发硬、发黄、袜口松弛，而这些细节很少被讨论。于是她决定从最基础的材料开始：选用新疆长绒棉与精梳纱线，把氨纶比例控制在不影响透气的前提下，同时与工厂一起调整袜头的缝合方式。</p>
+        <p>作为玉足小白袜的官方网站，这里不仅是产品信息的发布窗口，更是一个视频内容社区。我们把镜头对准真实的使用场景：通勤地铁上的脚踝、洗衣房里的晾晒绳、赛道终点后的第一双干爽袜子、旧物改造时剪开的那只袜筒。这些画面并不宏大，却构成了我们对「舒适」的理解——它不是参数，而是身体记得的感觉。</p>
+        <h3>我们为什么做影像</h3>
+        <p>袜子是低关注度的品类，消费者很难仅凭图片判断质感。视频恰好可以补足这一环：在镜头下，棉纱的蓬松程度、织纹的密度、洗后纤维的变化都能被看见。因此我们建立了品牌自有的影像团队，并与社区创作者共同维护内容生态，目前已累计上线超过 1200 部与玉足小白袜相关的原创视频。</p>
+        <h3>研发与品质把控</h3>
+        <p>每一款玉足小白袜在上市前，都要通过内部的水洗、拉伸与摩擦测试。我们会把样袜分发给 50 位以上的真实用户，进行为期四周的穿着反馈，记录起球、变形与舒适度变化。这个过程被拍摄成《洗涤实验室》系列，公开在官网与社区，接受用户监督。这种开放的态度，让玉足小白袜在口碑上积累了相对稳定的信任。</p>
+        <div class="yz-about-quote">「我们不追求把袜子做成话题，只希望当人们拉开抽屉时，最先拿起的还是那双白的。」——玉足小白袜产品负责人</div>
+        <h3>内容生态与社区</h3>
+        <p>玉足小白袜的内容生态由三部分构成：官方影像组负责品牌故事与工艺纪录；签约创作者提供专业测评与生活记录；社区用户则通过投稿通道分享自己的真实体验。我们设置了明确的社区规范，拒绝夸张渲染与虚假比较，鼓励具体、可验证的表达。正因如此，这里的评论区常有长段落的讨论，也会有人认真回复「第 4 分钟那个袜口的处理方式我试过」。</p>
+        <h3>面向未来</h3>
+        <p>接下来一年，玉足小白袜会继续深耕棉袜这一垂直领域，推出更细分的系列，同时把影像企划扩展到更多城市。我们相信持续运营的力量：一个品牌的可信度，来自一次次兑现承诺，也来自愿意把不完美的地方拍给你看。感谢每一位创作者与用户，是你们让这双白袜有了温度。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 影像墙 ===== -->
+  <section class="yz-section" id="yz-wall">
+    <div class="yz-wrap">
+      <div class="yz-sec-head">
+        <div>
+          <h2>用户影像墙</h2>
+          <p>来自社区的真实投稿，不同尺寸、不同视角，共同拼出玉足小白袜的生活切面。</p>
+        </div>
+        <a class="yz-sec-more" href="#yz-contact">我要投稿 ▸</a>
+      </div>
+
+      <div class="yz-wall">
+        <div class="yz-wall-item yz-wall-big">
+          <svg viewBox="0 0 640 640" role="img" aria-label="大幅作品：窗台上晾晒的一排白袜与午后光斑">
+            <rect width="640" height="640" fill="#f2e6d4"/>
+            <circle cx="500" cy="140" r="110" fill="#fbeed9" opacity=".9"/>
+            <rect x="80" y="120" width="480" height="380" rx="8" fill="#fdf8ee" stroke="#d8c6a8" stroke-width="4"/>
+            <path d="M80 300h480M320 120v380" stroke="#d8c6a8" stroke-width="4"/>
+            <g>
+              <rect x="120" y="330" width="60" height="140" rx="28" fill="#fff" stroke="#e5d5bd" stroke-width="2"/>
+              <rect x="220" y="348" width="60" height="124" rx="28" fill="#fdf8f0" stroke="#e5d5bd" stroke-width="2"/>
+              <rect x="370" y="336" width="60" height="136" rx="28" fill="#fff" stroke="#e5d5bd" stroke-width="2"/>
+              <rect x="470" y="352" width="60" height="120" rx="28" fill="#fdf8f0" stroke="#e5d5bd" stroke-width="2"/>
+            </g>
+            <rect y="560" width="640" height="80" fill="#d6bb94" opacity=".55"/>
+            <text x="40" y="612" font-size="14" fill="#8a7358" font-family="sans-serif" letter-spacing="3">AFTERNOON · WINDOW · WHITE</text>
+          </svg>
+          <span class="yz-wall-cap">窗台上的午后 · 投稿者 / 阿葵</span>
+        </div>
+        <div class="yz-wall-item">
+          <svg viewBox="0 0 320 320" role="img" aria-label="作品：抽屉里卷好的白袜近景">
+            <rect width="320" height="320" fill="#e9e3d8"/>
+            <rect x="30" y="30" width="260" height="260" rx="10" fill="#fbf7ef" stroke="#d9d1c3" stroke-width="3"/>
+            <g fill="#fff" stroke="#e3dbcc" stroke-width="2">
+              <rect x="56" y="60" width="52" height="62" rx="18"/>
+              <rect x="134" y="60" width="52" height="62" rx="18"/>
+              <rect x="212" y="60" width="52" height="62" rx="18"/>
+              <rect x="56" y="150" width="52" height="62" rx="18"/>
+              <rect x="134" y="150" width="52" height="62" rx="18"/>
+              <rect x="212" y="150" width="52" height="62" rx="18"/>
+            </g>
+            <text x="30" y="300" font-size="11" fill="#807664" font-family="sans-serif" letter-spacing="2">DRAWER</text>
+          </svg>
+          <span class="yz-wall-cap">整齐的抽屉 · 投稿者 / 小满</span>
+        </div>
+        <div class="yz-wall-item yz-wall-tall">
+          <svg viewBox="0 0 320 640" role="img" aria-label="竖幅作品：楼梯拐角的一双白袜与球鞋">
+            <rect width="320" height="640" fill="#dfe6e4"/>
+            <path d="M0 460h320v180H0z" fill="#bdcac6"/>
+            <path d="M0 540h320M0 600h320" stroke="#a9b8b3" stroke-width="3"/>
+            <g transform="translate(100 320)">
+              <rect x="0" y="0" width="52" height="140" rx="24" fill="#fff" stroke="#d5dfdc" stroke-width="2"/>
+              <rect x="10" y="130" width="84" height="30" rx="14" fill="#7d9d96"/>
+            </g>
+            <circle cx="250" cy="120" r="60" fill="#eef4f1" opacity=".8"/>
+            <text x="26" y="620" font-size="11" fill="#5e7370" font-family="sans-serif" letter-spacing="2">STAIRS</text>
+          </svg>
+          <span class="yz-wall-cap">拐角 · 投稿者 / 阿野</span>
+        </div>
+        <div class="yz-wall-item yz-wall-wide">
+          <svg viewBox="0 0 640 320" role="img" aria-label="横幅作品：晾衣绳上一排白袜在风中轻晃">
+            <rect width="640" height="320" fill="#f4e3d3"/>
+            <path d="M20 90h600" stroke="#b98667" stroke-width="4" stroke-linecap="round"/>
+            <g>
+              <line x1="120" y1="90" x2="120" y2="116" stroke="#b98667" stroke-width="3"/>
+              <rect x="96" y="116" width="48" height="108" rx="22" fill="#fff" stroke="#e7cfc0" stroke-width="2"/>
+              <line x1="260" y1="90" x2="260" y2="106" stroke="#b98667" stroke-width="3"/>
+              <rect x="236" y="106" width="48" height="112" rx="22" fill="#fdf6f2" stroke="#e7cfc0" stroke-width="2"/>
+              <line x1="400" y1="90" x2="400" y2="120" stroke="#b98667" stroke-width="3"/>
+              <rect x="376" y="120" width="48" height="102" rx="22" fill="#fff" stroke="#e7cfc0" stroke-width="2"/>
+              <line x1="530" y1="90" x2="530" y2="112" stroke="#b98667" stroke-width="3"/>
+              <rect x="506" y="112" width="48" height="108" rx="22" fill="#fdf6f2" stroke="#e7cfc0" stroke-width="2"/>
+            </g>
+            <text x="20" y="296" font-size="12" fill="#96674c" font-family="sans-serif" letter-spacing="2">WIND · LINE · DRY</text>
+          </svg>
+          <span class="yz-wall-cap">风向 · 投稿者 / 染染</span>
+        </div>
+        <div class="yz-wall-item">
+          <svg viewBox="0 0 320 320" role="img" aria-label="作品：脚踝与袜口的特写光影">
+            <rect width="320" height="320" fill="#efe0cc"/>
+            <g transform="translate(120 40)">
+              <rect x="0" y="0" width="80" height="150" rx="34" fill="#fff" stroke="#e0d0b7" stroke-width="2"/>
+              <path d="M0 132q40 34 80 0v14q-40 34-80 0z" fill="#f4ead8"/>
+              <path d="M0 26h80" stroke="#e0d0b7" stroke-width="3"/>
+            </g>
+            <circle cx="250" cy="80" r="40" fill="#f9efdd" opacity=".8"/>
+            <text x="26" y="300" font-size="11" fill="#8a7358" font-family="sans-serif" letter-spacing="2">ANKLE</text>
+          </svg>
+          <span class="yz-wall-cap">脚踝 · 投稿者 / 光光</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 数据榜单 ===== -->
+  <section class="yz-section yz-section-alt" id="yz-rank">
+    <div class="yz-wrap">
+      <div class="yz-sec-head">
+        <div>
+          <h2>社区数据榜单</h2>
+          <p>基于真实互动数据生成，每周更新一次，为创作者提供参考，也为新用户提供入口。</p>
+        </div>
+        <a class="yz-sec-more" href="#yz-news">了解更新规则 ▸</a>
+      </div>
+      <div class="yz-rank-grid">
+        <div class="yz-rank-box">
+          <h3>热度榜 · 本周</h3>
+          <ul class="yz-rank-list">
+            <li><span class="yz-rank-num">1</span><span class="yz-rank-name">一叠白袜的清晨</span><span class="yz-rank-hot">1.28万</span></li>
+            <li><span class="yz-rank-num">2</span><span class="yz-rank-name">三代人的袜与记忆</span><span class="yz-rank-hot">1.27万</span></li>
+            <li><span class="yz-rank-num">3</span><span class="yz-rank-name">从纱线到袜子</span><span class="yz-rank-hot">1.10万</span></li>
+            <li><span class="yz-rank-num">4</span><span class="yz-rank-name">三种厚度横评</span><span class="yz-rank-hot">9421</span></li>
+            <li><span class="yz-rank-num">5</span><span class="yz-rank-name">带三双袜子出发</span><span class="yz-rank-hot">8642</span></li>
+          </ul>
+        </div>
+        <div class="yz-rank-box">
+          <h3>新人榜 · 本月</h3>
+          <ul class="yz-rank-list">
+            <li><span class="yz-rank-num">1</span><span class="yz-rank-name">灰白之间</span><span class="yz-rank-hot">+3180 关注</span></li>
+            <li><span class="yz-rank-num">2</span><span class="yz-rank-name">棉线笔记</span><span class="yz-rank-hot">+2460 关注</span></li>
+            <li><span class="yz-rank-num">3</span><span class="yz-rank-name">午后散步所</span><span class="yz-rank-hot">+1980 关注</span></li>
+            <li><span class="yz-rank-num">4</span><span class="yz-rank-name">小满的柜子</span><span class="yz-rank-hot">+1620 关注</span></li>
+            <li><span class="yz-rank-num">5</span><span class="yz-rank-name">洗衣服的人</span><span class="yz-rank-hot">+1204 关注</span></li>
+          </ul>
+        </div>
+        <div class="yz-rank-box">
+          <h3>口碑榜 · 长期</h3>
+          <ul class="yz-rank-list">
+            <li><span class="yz-rank-num">1</span><span class="yz-rank-name">手作研习社</span><span class="yz-rank-hot">好评 98.6%</span></li>
+            <li><span class="yz-rank-num">2</span><span class="yz-rank-name">袜子实验室</span><span class="yz-rank-hot">好评 97.9%</span></li>
+            <li><span class="yz-rank-num">3</span><span class="yz-rank-name">慢镜头计划</span><span class="yz-rank-hot">好评 97.2%</span></li>
+            <li><span class="yz-rank-num">4</span><span class="yz-rank-name">收纳小满</span><span class="yz-rank-hot">好评 96.8%</span></li>
+            <li><span class="yz-rank-num">5</span><span class="yz-rank-name">慢跑阿野</span><span class="yz-rank-hot">好评 96.1%</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 用户评价 ===== -->
+  <section class="yz-section" id="yz-reviews">
+    <div class="yz-wrap">
+      <div class="yz-sec-head">
+        <div>
+          <h2>社区用户评价</h2>
+          <p>来自官网会员与社区用户的真实反馈，语气、长度、关注点各不相同，我们保留了原样。</p>
+        </div>
+        <a class="yz-sec-more" href="#yz-contact">写一条评价 ▸</a>
+      </div>
+
+      <div class="yz-review-grid">
+        <div class="yz-review">
+          <div class="yz-review-head">
+            <span class="yz-avatar" style="background:#c4693a">林</span>
+            <div><div class="yz-review-name">林间有风</div><div class="yz-review-sub">会员 2 年 · 上海</div></div>
+          </div>
+          <div class="yz-review-stars">★★★★★</div>
+          <p class="yz-review-body">买了三双日常款，洗了大概一个月，袜口还是紧的，这点比我之前买的很多都强。唯一的小建议是希望出点浅灰和燕麦色，全白确实好看但容易显脏。</p>
+        </div>
+        <div class="yz-review">
+          <div class="yz-review-head">
+            <span class="yz-avatar" style="background:#3f6f6a">周</span>
+            <div><div class="yz-review-name">周末不加班</div><div class="yz-review-sub">社区用户 · 成都</div></div>
+          </div>
+          <div class="yz-review-stars">★★★★☆</div>
+          <p class="yz-review-body">看《洗涤实验室》那期才知道自己一直用热水洗袜子，难怪发黄。按视频里的方法重洗了一遍，确实有改善。内容挺实用的，不是那种硬广。</p>
+        </div>
+        <div class="yz-review">
+          <div class="yz-review-head">
+            <span class="yz-avatar" style="background:#8a6c46">陈</span>
+            <div><div class="yz-review-name">陈小满的猫</div><div class="yz-review-sub">会员 1 年 · 杭州</div></div>
+          </div>
+          <div class="yz-review-stars">★★★★★</div>
+          <p class="yz-review-body">被收纳视频种草的，跟着整理了自己的袜子抽屉，居然找到六只落单的……官网的设计我也挺喜欢，不吵，看视频很舒服。</p>
+        </div>
+        <div class="yz-review">
+          <div class="yz-review-head">
+            <span class="yz-avatar" style="background:#6f8b84">跑</span>
+            <div><div class="yz-review-name">跑完再吃</div><div class="yz-review-sub">社区用户 · 广州</div></div>
+          </div>
+          <div class="yz-review-stars">★★★★★</div>
+          <p class="yz-review-body">跑步袜的缓冲位置做得很到位，十公里下来没有出现以前那种脚趾顶到袜头的疼。希望官方能出个尺码对照，我 42 的脚穿均码略长一点点。</p>
+        </div>
+        <div class="yz-review">
+          <div class="yz-review-head">
+            <span class="yz-avatar" style="background:#a2624a">苏</span>
+            <div><div class="yz-review-name">苏打水冰</div><div class="yz-review-sub">会员 3 年 · 北京</div></div>
+          </div>
+          <div class="yz-review-stars">★★★★☆</div>
+          <p class="yz-review-body">品牌故事那篇写得挺真诚，尤其是承认早期打样失败的部分。不过私心希望视频能长一点，工艺那段看得意犹未尽，很想看完整流程。</p>
+        </div>
+        <div class="yz-review">
+          <div class="yz-review-head">
+            <span class="yz-avatar" style="background:#55707f">叶</span>
+            <div><div class="yz-review-name">叶子落下来</div><div class="yz-review-sub">社区用户 · 西安</div></div>
+          </div>
+          <div class="yz-review-stars">★★★★★</div>
+          <p class="yz-review-body">投稿了一支自己染袜子的短片，没想到第二天就被编辑推荐了，评论区还认识了好几个同好。这种被认真对待的感觉挺好的。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 企业动态 ===== -->
+  <section class="yz-section yz-section-alt" id="yz-news">
+    <div class="yz-wrap">
+      <div class="yz-sec-head">
+        <div>
+          <h2>企业动态 · 官方发布</h2>
+          <p>玉足小白袜的内容更新、产品计划与社区活动，统一在此公示，保持信息透明。</p>
+        </div>
+        <a class="yz-sec-more" href="#yz-faq">常见问题 ▸</a>
+      </div>
+
+      <div class="yz-news-list">
+        <div class="yz-news-item">
+          <div class="yz-news-date">2026 / 11 / 17</div>
+          <div class="yz-news-title">「棉纱溯源」专题新增 6 部影像<small>完整记录从原棉到成袜的 12 道工序，含织机车间实拍与师傅访谈。</small></div>
+          <span class="yz-news-kind">内容更新</span>
+        </div>
+        <div class="yz-news-item">
+          <div class="yz-news-date">2026 / 11 / 12</div>
+          <div class="yz-news-title">创作者「手作研习社」正式入驻官网<small>首批上线 8 部工艺纪录短片，后续将参与冬季企划的联合拍摄。</small></div>
+          <span class="yz-news-kind">社区公告</span>
+        </div>
+        <div class="yz-news-item">
+          <div class="yz-news-date">2026 / 11 / 05</div>
+          <div class="yz-news-title">「白袜创作挑战赛」报名开启，共 30 个名额<small>需提交 1 分钟内原创短片，评审由社区投票与专业评审共同组成。</small></div>
+          <span class="yz-news-kind">活动报名</span>
+        </div>
+        <div class="yz-news-item">
+          <div class="yz-news-date">2026 / 10 / 28</div>
+          <div class="yz-news-title">冬季加厚系列进入打样阶段<small>预计 12 月上线，首批将提供三种袜口高度，欢迎在评价区留下尺码建议。</small></div>
+          <span class="yz-news-kind">产品计划</span>
+        </div>
+        <div class="yz-news-item">
+          <div class="yz-news-date">2026 / 10 / 20</div>
+          <div class="yz-news-title">官网投稿通道升级，支持多段视频上传<small>单次最多可提交 3 段素材，审核周期缩短至 5 个工作日。</small></div>
+          <span class="yz-news-kind">功能升级</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 合作 & 联系 ===== -->
+  <section class="yz-section" id="yz-contact">
+    <div class="yz-wrap yz-bottom-grid">
+      <div class="yz-partner-box">
+        <h3>合作品牌与伙伴</h3>
+        <p>我们与重视品质与真实表达的品牌长期合作，共同推进日常衣物领域的透明化。</p>
+        <div class="yz-partner-row">
+          <div class="yz-partner"><i style="background:#c4693a">棉</i>棉田直采计划</div>
+          <div class="yz-partner"><i style="background:#3f6f6a">织</i>织造联合实验室</div>
+          <div class="yz-partner"><i style="background:#8a6c46">洗</i>洗涤用品研究所</div>
+          <div class="yz-partner"><i style="background:#6f8b84">步</i>城市步行协会</div>
+          <div class="yz-partner"><i style="background:#a2624a">染</i>天然染色工坊</div>
+          <div class="yz-partner"><i style="background:#55707f">影</i>社区影像联盟</div>
+        </div>
+      </div>
+
+      <div class="yz-contact-box">
+        <h3>联系与投稿</h3>
+        <p>无论是内容合作、产品建议还是影像投稿，都可以通过以下方式找到我们。</p>
+        <ul class="yz-contact-list">
+          <li><b>合作邮箱</b><span>brand@yuzu-socks.example</span></li>
+          <li><b>投稿邮箱</b><span>create@yuzu-socks.example</span></li>
+          <li><b>客服时间</b><span>工作日 10:00 - 19:00（法定节假日除外）</span></li>
+          <li><b>办公地址</b><span>浙江省绍兴市柯桥区纺织创意园 B 座 3 层</span></li>
+        </ul>
+        <div class="yz-contact-actions">
+          <button class="yz-btn yz-btn-primary" type="button" id="yzSubmitBtn">我要投稿</button>
+          <button class="yz-btn yz-btn-ghost" type="button" id="yzShareBtn">分享官网</button>
+          <button class="yz-btn yz-btn-ghost" type="button" id="yzReportBtn">意见反馈</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="yz-section yz-section-alt" id="yz-faq">
+    <div class="yz-wrap">
+      <div class="yz-sec-head">
+        <div>
+          <h2>帮助中心 · 常见问题</h2>
+          <p>关于玉足小白袜官网与社区的高频疑问，点击展开查看详细说明。</p>
+        </div>
+      </div>
+
+      <div class="yz-faq-grid">
+        <details class="yz-faq-item" open>
+          <summary>玉足小白袜官网提供哪些内容？</summary>
+          <p>官网包含品牌故事、工艺纪录、产品解析、社区视频、创作者档案与企业动态等板块。所有视频均为原创或经授权的正版高清内容，围绕白袜这一垂直领域展开。</p>
+        </details>
+        <details class="yz-faq-item">
+          <summary>如何成为社区创作者？</summary>
+          <p>在「联系与投稿」区域点击「我要投稿」，填写昵称、擅长领域与作品链接即可提交申请。我们会在 5 个工作日内完成初审，通过后会收到官方邮件通知。</p>
+        </details>
+        <details class="yz-faq-item">
+          <summary>投稿的视频有主题限制吗？</summary>
+          <p>内容需与日常穿着、工艺、收纳、运动或无主题的生活记录相关，且为本人原创。请避免夸张对比与不实描述，我们更看重具体、可验证的表达。</p>
+        </details>
+        <details class="yz-faq-item">
+          <summary>白袜洗后发黄是质量问题吗？</summary>
+          <p>多数情况与洗涤方式有关。建议使用 30℃ 以下温水、中性洗涤剂，避免长时间浸泡与阳光直射。官网《洗涤实验室》专题有完整的对比实验可供参考。</p>
+        </details>
+        <details class="yz-faq-item">
+          <summary>袜子尺码如何选择？</summary>
+          <p>日常款为均码设计，适配 36 - 44 码脚型；运动款提供分码，建议按脚长选择。若脚背较高，可优先选择袜口弹性更强的系列。</p>
+        </details>
+        <details class="yz-faq-item">
+          <summary>官网的视频可以下载吗？</summary>
+          <p>部分创作者作品开放下载权限，需在作品页点击分享并选择「申请下载」，经作者授权后可获得高清文件。请勿用于商业用途。</p>
+        </details>
+        <details class="yz-faq-item">
+          <summary>如何参与专题企划的征集？</summary>
+          <p>每个专题页面会标注征集状态与截止时间，处于征集中的企划可直接通过投稿入口提交，并在标题中注明专题名称，便于编辑归类。</p>
+        </details>
+        <details class="yz-faq-item">
+          <summary>合作与商务洽谈怎么联系？</summary>
+          <p>请发送邮件至 brand@yuzu-socks.example，注明合作类型、品牌信息与预期形式。我们通常会在 3 个工作日内回复，感谢理解。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="yz-footer">
+  <div class="yz-wrap">
+    <div class="yz-footer-grid">
+      <div>
+        <div class="yz-footer-brand">
+          <span class="yz-logo-mark">玉足</span>
+          <strong>玉足小白袜</strong>
+        </div>
+        <p>玉足小白袜官方网站，专注棉质白袜研发与生活影像记录。我们以原创内容、正版高清影像与真实社区，持续构建值得信赖的日常衣物内容生态。</p>
+      </div>
+      <div>
+        <h4>内容导航</h4>
+        <ul>
+          <li><a href="#yz-focus">视频焦点</a></li>
+          <li><a href="#yz-flow">热门影像</a></li>
+          <li><a href="#yz-topics">专题企划</a></li>
+          <li><a href="#yz-wall">用户影像墙</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>品牌与社区</h4>
+        <ul>
+          <li><a href="#yz-about">品牌故事</a></li>
+          <li><a href="#yz-creators">创作者矩阵</a></li>
+          <li><a href="#yz-news">企业动态</a></li>
+          <li><a href="#yz-reviews">用户评价</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>支持</h4>
+        <ul>
+          <li><a href="#yz-faq">帮助中心</a></li>
+          <li><a href="#yz-contact">联系与投稿</a></li>
+          <li><a href="#yz-rank">数据榜单</a></li>
+          <li><a href="#yz-top">返回首页</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="yz-footer-bottom">
+      <span>© 2019 - 2026 玉足小白袜 版权所有 · 持续运营中</span>
+      <span>浙 ICP 备 2026000000 号 · 官方网站 · 内容均为原创或授权使用</span>
+    </div>
+  </div>
+</footer>
+
+<button class="yz-top-btn" id="yzTopBtn" aria-label="回到顶部">↑</button>
+<div class="yz-toast" id="yzToast">已复制</div>
+
+<!-- 分享弹窗 -->
+<div class="yz-modal" id="yzShareModal">
+  <div class="yz-modal-card">
+    <button class="yz-modal-close" type="button" data-yz-close="yzShareModal" aria-label="关闭">×</button>
+    <h3>分享玉足小白袜官网</h3>
+    <p>把这份关于白袜与日常的影像记录，分享给同样在意细节的朋友。</p>
+    <div class="yz-share-row">
+      <button class="yz-share-btn" type="button" data-share="微信">微信</button>
+      <button class="yz-share-btn" type="button" data-share="微博">微博</button>
+      <button class="yz-share-btn" type="button" data-share="QQ">QQ</button>
+      <button class="yz-share-btn" type="button" id="yzCopyLink">复制链接</button>
+    </div>
+  </div>
+</div>
+
+<!-- 投稿弹窗 -->
+<div class="yz-modal" id="yzSubmitModal">
+  <div class="yz-modal-card">
+    <button class="yz-modal-close" type="button" data-yz-close="yzSubmitModal" aria-label="关闭">×</button>
+    <h3>社区投稿入口</h3>
+    <p>填写基本信息，编辑会在 5 个工作日内与你联系。请确保作品为本人原创。</p>
+    <div class="yz-form-row">
+      <input type="text" id="yzSubmitName" placeholder="你的昵称 / 创作者名">
+      <input type="text" id="yzSubmitLink" placeholder="作品链接或简介（选填）">
+      <textarea id="yzSubmitNote" rows="3" placeholder="简单描述你的作品主题，例如：白袜收纳日常记录"></textarea>
+    </div>
+    <button class="yz-btn yz-btn-primary" type="button" id="yzSubmitSend" style="width:100%">提交投稿</button>
+  </div>
+</div>
+
+<!-- 反馈弹窗 -->
+<div class="yz-modal" id="yzReportModal">
+  <div class="yz-modal-card">
+    <button class="yz-modal-close" type="button" data-yz-close="yzReportModal" aria-label="关闭">×</button>
+    <h3>意见反馈</h3>
+    <p>你的每一条建议都会被认真阅读，帮助我们把官网与内容做得更好。</p>
+    <div class="yz-form-row">
+      <textarea id="yzReportText" rows="4" placeholder="请描述你遇到的问题或建议"></textarea>
+    </div>
+    <button class="yz-btn yz-btn-primary" type="button" id="yzReportSend" style="width:100%">发送反馈</button>
+  </div>
+</div>
+
+<!-- 评论弹窗 -->
+<div class="yz-modal" id="yzCommentModal">
+  <div class="yz-modal-card">
+    <button class="yz-modal-close" type="button" data-yz-close="yzCommentModal" aria-label="关闭">×</button>
+    <h3>评论</h3>
+    <p id="yzCommentSubject">《一叠白袜的清晨》</p>
+    <div class="yz-form-row">
+      <textarea id="yzCommentText" rows="3" placeholder="说点什么吧，具体的感受更有价值"></textarea>
+    </div>
+    <button class="yz-btn yz-btn-primary" type="button" id="yzCommentSend" style="width:100%">发布评论</button>
+  </div>
+</div>
+
+<!-- 作者弹窗 -->
+<div class="yz-modal" id="yzAuthorModal">
+  <div class="yz-modal-card">
+    <button class="yz-modal-close" type="button" data-yz-close="yzAuthorModal" aria-label="关闭">×</button>
+    <h3 id="yzAuthorName">创作者档案</h3>
+    <p id="yzAuthorField" style="color:#3f6f6a;font-weight:600;margin-bottom:6px"></p>
+    <p id="yzAuthorDesc"></p>
+    <button class="yz-btn yz-btn-primary" type="button" id="yzAuthorFollow" style="width:100%">关注该创作者</button>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var toast = document.getElementById('yzToast');
+  var toastTimer = null;
+  function showToast(msg){
+    toast.textContent = msg;
+    toast.classList.add('yz-show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toast.classList.remove('yz-show'); }, 2200);
+  }
+
+  /* 移动端导航折叠 */
+  var burger = document.getElementById('yzBurger');
+  var nav = document.getElementById('yzNav');
+  burger.addEventListener('click', function(){
+    var open = nav.classList.toggle('yz-open');
+    burger.classList.toggle('yz-open', open);
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  nav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){
+      nav.classList.remove('yz-open');
+      burger.classList.remove('yz-open');
+      burger.setAttribute('aria-expanded','false');
+    }
+  });
+
+  /* 搜索反馈 */
+  var searchInput = document.getElementById('yzSearchInput');
+  var searchBtn = document.getElementById('yzSearchBtn');
+  var searchTip = document.getElementById('yzSearchTip');
+  var searchTipText = document.getElementById('yzSearchTipText');
+  var searchPool = [
+    '白袜收纳 · 收纳小满',
+    '工艺纪录片 · 手作研习社',
+    '三种厚度横评 · 袜子实验室',
+    '城市探索 · 旅行的袜子',
+    '洗涤实验室 · 官方影像组',
+    '人物访谈 · 玉足影像访谈'
+  ];
+  function doSearch(){
+    var kw = (searchInput.value || '').trim();
+    if(!kw){
+      searchTipText.textContent = '试试搜索「白袜」「工艺」「收纳」或创作者昵称。';
+    } else {
+      var hit = searchPool.filter(function(item){ return item.indexOf(kw) > -1; });
+      if(hit.length){
+        searchTipText.textContent = '找到 ' + hit.length + ' 条与「' + kw + '」相关的内容：' + hit.join(' ； ') + '。';
+      } else {
+        searchTipText.textContent = '暂未匹配到「' + kw + '」，可尝试「白袜」「棉纱」「洗护」等关键词';
+      }
+    }
+    searchTip.classList.add('yz-show');
+  }
+  searchBtn.addEventListener('click', doSearch);
+  searchInput.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ doSearch(); } });
+  searchInput.addEventListener('input', function(){
+    if(!searchInput.value){ searchTip.classList.remove('yz-show'); }
+  });
+
+  /* 数字滚动 */
+  var counters = document.querySelectorAll('[data-yz-count]');
+  var counted = false;
+  function runCounters(){
+    if(counted) return;
+    counted = true;
+    counters.forEach(function(el){
+      var target = parseInt(el.getAttribute('data-yz-count'), 10) || 0;
+      var start = 0;
+      var dur = 1200;
+      var t0 = null;
+      function step(ts){
+        if(!t0) t0 = ts;
+        var p = Math.min((ts - t0) / dur, 1);
+        var val = Math.floor(start + (target - start) * (1 - Math.pow(1 - p, 3)));
+        el.textContent = val.toLocaleString('en-US');
+        if(p < 1){ requestAnimationFrame(step); }
+        else { el.textContent = target.toLocaleString('en-US'); }
+      }
+      requestAnimationFrame(step);
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){ if(en.isIntersecting){ runCounters(); io.disconnect(); } });
+    }, {threshold:.3});
+    var stat = document.querySelector('.yz-hero-stats');
+    if(stat) io.observe(stat);
+  } else {
+    runCounters();
+  }
+
+  /* 回到顶部 */
+  var topBtn = document.getElementById('yzTopBtn');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 480){ topBtn.classList.add('yz-show'); }
+    else { topBtn.classList.remove('yz-show'); }
+  }, {passive:true});
+  topBtn.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  /* 点赞 */
+  document.querySelectorAll('.yz-like').forEach(function(btn){
+    var span = btn.querySelector('span');
+    var base = parseInt(btn.getAttribute('data-count'), 10) || 0;
+    btn.addEventListener('click', function(){
+      var on = btn.classList.toggle('yz-like-on');
+      var val = base + (on ? 1 : 0);
+      if(span) span.textContent = val;
+      showToast(on ? '已点赞，感谢支持' : '已取消点赞');
+    });
+  });
+
+  /* 收藏 */
+  document.querySelectorAll('.yz-fav').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var on = btn.classList.toggle('yz-fav-on');
+      btn.innerHTML = on ? '★ 已收藏' : '☆ 收藏';
+      showToast(on ? '已加入收藏夹' : '已取消收藏');
+    });
+  });
+
+  /* 评论弹窗 */
+  var commentModal = document.getElementById('yzCommentModal');
+  var commentSubject = document.getElementById('yzCommentSubject');
+  document.querySelectorAll('.yz-comment').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var title = btn.getAttribute('data-title') || '作品';
+      commentSubject.textContent = '《' + title + '》';
+      openModal('yzCommentModal');
+    });
+  });
+
+  /* 弹窗通用 */
+  function openModal(id){
+    var m = document.getElementById(id);
+    if(m){ m.classList.add('yz-show'); }
+  }
+  function closeModal(id){
+    var m = document.getElementById(id);
+    if(m){ m.classList.remove('yz-show'); }
+  }
+  document.querySelectorAll('[data-yz-close]').forEach(function(btn){
+    btn.addEventListener('click', function(){ closeModal(btn.getAttribute('data-yz-close')); });
+  });
+  document.querySelectorAll('.yz-modal').forEach(function(m){
+    m.addEventListener('click', function(e){
+      if(e.target === m){ m.classList.remove('yz-show'); }
+    });
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){
+      document.querySelectorAll('.yz-modal.yz-show').forEach(function(m){ m.classList.remove('yz-show'); });
+    }
+  });
+
+  /* 分享 */
+  function openShare(){ openModal('yzShareModal'); }
+  document.getElementById('yzShareBtn').addEventListener('click', openShare);
+  document.getElementById('yzShareBtnHero').addEventListener('click', openShare);
+
+  document.querySelectorAll('.yz-share-btn[data-share]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      showToast('已生成' + btn.getAttribute('data-share') + '分享卡片');
+    });
+  });
+
+  var copyBtn = document.getElementById('yzCopyLink');
+  if(copyBtn){
+    copyBtn.addEventListener('click', function(){
+      var link = 'https://yuzu-socks.example';
+      function done(){
+        showToast('链接已复制到剪贴板');
+        closeModal('yzShareModal');
+      }
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(link).then(done).catch(function(){
+          fallbackCopy(link); done();
+        });
+      } else {
+        fallbackCopy(link); done();
+      }
+    });
+  }
+  function fallbackCopy(text){
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    try{ document.execCommand('copy'); }catch(err){}
+    document.body.removeChild(ta);
+  }
+
+  /* 投稿 */
+  document.getElementById('yzSubmitBtn').addEventListener('click', function(){ openModal('yzSubmitModal'); });
+  document.getElementById('yzSubmitSend').addEventListener('click', function(){
+    var name = document.getElementById('yzSubmitName').value.trim();
+    if(!name){ showToast('请先填写昵称'); return; }
+    closeModal('yzSubmitModal');
+    document.getElementById('yzSubmitName').value = '';
+    document.getElementById('yzSubmitLink').value = '';
+    document.getElementById('yzSubmitNote').value = '';
+    showToast('投稿已提交，编辑将在 5 个工作日内联系你');
+  });
+
+  /* 反馈 */
+  document.getElementById('yzReportBtn').addEventListener('click', function(){ openModal('yzReportModal'); });
+  document.getElementById('yzReportSend').addEventListener('click', function(){
+    var txt = document.getElementById('yzReportText').value.trim();
+    if(!txt){ showToast('请先填写反馈内容'); return; }
+    closeModal('yzReportModal');
+    document.getElementById('yzReportText').value = '';
+    showToast('反馈已收到，感谢你的建议');
+  });
+
+  /* 评论发送 */
+  document.getElementById('yzCommentSend').addEventListener('click', function(){
+    var txt = document.getElementById('yzCommentText').value.trim();
+    if(!txt){ showToast('评论内容不能为空'); return; }
+    closeModal('yzCommentModal');
+    document.getElementById('yzCommentText').value = '';
+    showToast('评论已发布，审核通过后展示');
+  });
+
+  /* 作者档案 */
+  var authorModalName = document.getElementById('yzAuthorName');
+  var authorModalField = document.getElementById('yzAuthorField');
+  var authorModalDesc = document.getElementById('yzAuthorDesc');
+  document.querySelectorAll('.yz-author-open').forEach(function(link){
+    link.addEventListener('click', function(){
+      authorModalName.textContent = link.getAttribute('data-author');
+      authorModalField.textContent = link.getAttribute('data-field');
+      authorModalDesc.textContent = link.getAttribute('data-desc');
+      openModal('yzAuthorModal');
+    });
+  });
+  var followBtn = document.getElementById('yzAuthorFollow');
+  if(followBtn){
+    followBtn.addEventListener('click', function(){
+      closeModal('yzAuthorModal');
+      showToast('已关注该创作者');
+    });
+  }
+
+  /* FAQ 单选展开 */
+  var faqs = document.querySelectorAll('.yz-faq-item');
+  faqs.forEach(function(item){
+    item.addEventListener('toggle', function(){
+      if(item.open){
+        faqs.forEach(function(other){
+          if(other !== item && other.open){ other.open = false; }
+        });
+      }
+    });
+  });
+
+  /* 标签筛选（点击视频流标签提示） */
+  document.querySelectorAll('.yz-tag').forEach(function(tag){
+    tag.addEventListener('click', function(){
+      showToast('已筛选标签：' + tag.textContent);
+    });
+  });
+})();
+</script>
+</body>
+                    </html>
